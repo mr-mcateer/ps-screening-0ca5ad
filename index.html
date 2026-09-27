@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>PoleStrike Screening Room</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+  /* A screening room at blue hour: one dark look on purpose, every colour set explicitly. */
+  :root {
+    color-scheme: dark;
+    --night: #070b16;
+    --panel: #0e1528;
+    --line: #1f2a47;
+    --ink: #e8ecf7;
+    --muted: #8d97b5;
+    --cobalt: #4d74d6;
+    --amber: #ffc27a;
+    --team-a: #ff5a4a;
+    --team-b: #3d8bff;
+    --good: #7fd6a4;
+    --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  }
+  html { background: var(--night); }
+  body {
+    margin: 0;
+    background: var(--night);
+    color: var(--ink);
+    font: 15px/1.55 var(--body);
+    padding-inline: 16px;
+    padding-block: 28px 56px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; display: grid; gap: 22px; }
+  header { display: grid; gap: 4px; }
+  .eyebrow {
+    font: 500 12px/1 var(--mono);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+  h1 {
+    margin: 0;
+    font: 600 clamp(36px, 6vw, 58px)/1 var(--display);
+    letter-spacing: 0.01em;
+    text-wrap: balance;
+  }
+  .lede { margin: 6px 0 0; color: var(--muted); max-width: 64ch; }
+  .screen {
+    background: #000;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px var(--line), 0 30px 80px -30px rgba(77, 116, 214, 0.45);
+  }
+  video { display: block; width: 100%; max-width: 100%; aspect-ratio: 16 / 9; background: #000; }
+  .specs {
+    display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 0; padding: 0; list-style: none;
+    font: 400 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums;
+  }
+  .specs b { color: var(--ink); font-weight: 500; }
+  h2 {
+    margin: 14px 0 0;
+    font: 600 22px/1.1 var(--display);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-wrap: balance;
+  }
+  .sub { margin: -10px 0 0; color: var(--muted); max-width: 70ch; }
+  .shots {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 8px; margin: 0; padding: 0; list-style: none;
+  }
+  .shot {
+    width: 100%; display: grid; grid-template-columns: auto 1fr auto; align-items: center;
+    gap: 4px 10px; padding: 10px 12px; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 5px; color: var(--ink); font: inherit; text-align: left; cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .shot:hover { border-color: var(--cobalt); }
+  .shot:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+  .shot[aria-current="true"] { border-color: var(--amber); background: #16203a; }
+  .tc { font: 500 13px/1 var(--mono); color: var(--amber); font-variant-numeric: tabular-nums; }
+  .name { font-weight: 500; }
+  .len { font: 400 12px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .meter { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
+  .bar { position: relative; height: 6px; border-radius: 3px; background: #18213b; overflow: hidden; }
+  .bar i { position: absolute; inset: 0 auto 0 0; background: var(--amber); border-radius: 3px; }
+  .bar i + i { background: #3a4a78; }
+  .score { font: 400 12px/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .score b { color: var(--ink); font-weight: 500; }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 400 12px/1.4 var(--mono); color: var(--muted); }
+  .legend span::before { content: ""; display: inline-block; width: 18px; height: 6px; border-radius: 3px; margin-right: 6px; vertical-align: middle; background: var(--c); }
+  .rounds { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+  .round {
+    display: grid; grid-template-columns: 64px 1fr; gap: 12px; padding: 14px 16px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 5px;
+  }
+  .round .rid { font: 600 26px/1 var(--display); color: var(--amber); letter-spacing: 0.02em; }
+  .round h3 { margin: 0 0 4px; font: 500 15px/1.35 var(--body); }
+  .round p { margin: 0; color: var(--muted); max-width: 72ch; }
+  .round p + p { margin-top: 6px; }
+  figure { margin: 0; display: grid; gap: 8px; }
+  figure img { display: block; width: 100%; max-width: 100%; border-radius: 5px; box-shadow: 0 0 0 1px var(--line); }
+  figcaption { color: var(--muted); font-size: 13px; max-width: 72ch; }
+  figcaption b { color: var(--ink); font-weight: 500; }
+  .notes { margin: 0; padding-left: 1.1em; color: var(--muted); max-width: 72ch; display: grid; gap: 6px; }
+  .notes b { color: var(--ink); font-weight: 500; }
+  footer { color: var(--muted); font: 400 12px/1.5 var(--mono); border-top: 1px solid var(--line); padding-top: 14px; }
+  @media (max-width: 520px) { .round { grid-template-columns: 1fr; gap: 6px; } }
+  @media (prefers-reduced-motion: reduce) { .shot { transition: none; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <span class="eyebrow">PoleStrike · v2 promo film · lab cut · internal review</span>
+    <h1>PoleStrike v2, lab cut</h1>
+    <p class="lede">The night-game film rendered on the PC with the look-dev lab's settings, then polished frame by frame with a creative-director loop. Temp music and the review slate stay on: this cut is for a small internal audience only.</p>
+  </header>
+
+  <div class="screen">
+    <video id="film" controls playsinline preload="metadata" poster="poster-r0.jpg" src="v2lab-720p-r0.mp4"></video>
+  </div>
+
+  <ul class="specs">
+    <li><b>63.2 s</b> · 1516 frames · 24 fps</li>
+    <li><b>1280×720</b> (phone-size copy of the 96 MB master)</li>
+    <li>Blender 5.2.2 Cycles · OptiX · RTX 3060</li>
+    <li>128 samples, 512 in the bokeh shots</li>
+    <li>Temp music · review slate on</li>
+    <li>This is the cut before the director's loop</li>
+  </ul>
+
+  <h2>Shots</h2>
+  <p class="sub">Tap a shot to jump to it. Each bar is the creative director's score out of 10 against an award-level product film: grey at the first review, amber now.</p>
+  <div class="legend"><span style="--c:#3a4a78">First review (R0)</span><span style="--c:var(--amber)">Latest round</span></div>
+  <ul class="shots" id="shots"></ul>
+
+  <h2>The director's loop</h2>
+  <p class="sub">Each round renders two frames from every shot, a critic agent reviews them at full size, and the next round fixes its top notes. Fixes go into the render scripts as switches, never into the frames.</p>
+  <ul class="rounds">
+    <li class="round"><span class="rid">R0</span><div><h3>The first review, on the lab cut you can play above</h3><p>The critic scored every shot from 4 to 7.5. The colour and glow were close to pro. The type, the polygon bokeh, the sawtooth treeline and the flat dark products still read as CG.</p></div></li>
+    <li class="round"><span class="rid">R1</span><div><h3>Round bokeh, amber bulbs, titles off the action</h3><p>Circular aperture with the oval kept, string-light bulbs at half so they hold amber, tighter two-line titles, the knock title moved off the flying bottle, softer house windows. Five of six fixes landed with no regressions.</p></div></li>
+    <li class="round"><span class="rid">R2</span><div><h3>Rim light, ground fog, a bigger B pole</h3><p>A warm grazing rim on the dark bottle, disc and nest; thinner haze with a fog layer on the grass; the ignition shot at 50 mm so B's pole doubles; the chairs and cooler moved out of frame. Six shots rose, two dropped: the thinner haze exposed the fake treeline.</p></div></li>
+    <li class="round"><span class="rid">R3</span><div><h3>In progress: treeline, headroom, end card</h3><p>Ragged conifer silhouettes and a thin high haze, more headroom over A's bottle, a real edge light, the end card at 512 samples, the knock and PLAY AFTER DARK titles moved clear of the poles.</p></div></li>
+  </ul>
+
+  <h2>Before and after</h2>
+  <p class="sub">Left: the first review. Right: round 2. Same frame, same camera time.</p>
+  <figure><img src="ab_f0140_S02_bottle.jpg" alt="S02 · The bottle, first review beside round 2" loading="lazy" width="1600" height="450"><figcaption><b>S02 · The bottle.</b> The unlit stubby: polygon bokeh becomes round amber ovals, and a warm edge picks the bottle out of the dark.</figcaption></figure>
+  <figure><img src="ab_f0215_S03_disc.jpg" alt="S03 · The disc, first review beside round 2" loading="lazy" width="1600" height="450"><figcaption><b>S03 · The disc.</b> The rim light and ground fog backlight the grass tips; the disc's edge catches the light.</figcaption></figure>
+  <figure><img src="ab_f0494_S06_ignite.jpg" alt="S06 · Ignition, first review beside round 2" loading="lazy" width="1600" height="450"><figcaption><b>S06 · Ignition.</b> 50 mm from further back: B's pole is twice the size, and a fog band lies along the fence.</figcaption></figure>
+  <figure><img src="ab_f1330_S19b_wide.jpg" alt="S19b · The wide, first review beside round 2" loading="lazy" width="1600" height="450"><figcaption><b>S19b · The wide.</b> The greybox chairs are gone from the foreground; the fallen disc and bottle lead the eye in.</figcaption></figure>
+
+
+  <footer>Rendered on the PC render box (RTX 3060). Lab branch pc/lab-agx. Updated 27 Sep 2026.</footer>
+</div>
+
+<script>
+  // Shot table from Promo_Film ps/shots.py, 24 fps. Scores: [first review, latest round].
+  const SHOTS = [["S01", "Dusk", 1, 114, 6, 6.0], ["S02", "The bottle", 115, 189, 4, 5.0], ["S03", "The disc", 190, 265, 5, 6.5], ["S04", "The tube", 266, 341, 5, 5.0], ["S05", "Far pole", 342, 398, 5, 5.0], ["S05b", "The nest", 399, 417, 5, 6.0], ["S06", "Ignition", 418, 531, 7, 7.5], ["S07", "Thrower's eyes", 532, 568, 6.5, 6.5], ["S08", "Flight", 569, 616, 6, 6.0], ["S09", "The knock", 617, 682, 5, 6.5], ["S10a", "Near miss", 683, 699, 6, 5.5], ["S10b", "The rock", 700, 758, 6.5, 6.5], ["S11", "The app", 759, 834, 7, 7.5], ["S12", "Rainbow", 835, 909, 7.5, 8.0], ["S13", "Fire on the phone", 910, 947, 7, 7.5], ["S14", "Fire", 948, 985, 6, 6.0], ["S15", "Keep score", 986, 1061, 7, 7.5], ["S16", "The stakes", 1062, 1137, 6, 7.0], ["S17", "The answer's flight", 1138, 1194, 6, 6.5], ["S18", "The answer", 1195, 1251, 7.5, 7.5], ["S19a", "Win screen", 1252, 1288, 7, 7.0], ["S19b", "The wide", 1289, 1402, 5, 6.0], ["S20", "End card", 1403, 1516, 5.5, 5.5]];
+  const FPS = 24;
+  const film = document.getElementById("film");
+  const list = document.getElementById("shots");
+  const tc = (s) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
+  const buttons = SHOTS.map(([id, name, a, b, s0, s1]) => {
+    const li = document.createElement("li");
+    const btn = document.createElement("button");
+    btn.className = "shot";
+    btn.type = "button";
+    const start = (a - 1) / FPS;
+    // amber is the latest score, drawn under the grey first-review score, so the gain shows as amber
+    btn.innerHTML = `<span class="tc">${tc(start)}</span><span class="name">${id} · ${name}</span>` +
+      `<span class="len">${((b - a + 1) / FPS).toFixed(1)} s</span>` +
+      `<span class="meter"><span class="bar"><i style="width:${s1 * 10}%"></i><i style="width:${s0 * 10}%"></i></span>` +
+      `<span class="score">${s0} → <b>${s1}</b></span></span>`;
+    btn.addEventListener("click", () => { film.currentTime = start + 0.001; film.play().catch(() => {}); });
+    li.appendChild(btn);
+    list.appendChild(li);
+    return { btn, start, end: b / FPS };
+  });
+  film.addEventListener("timeupdate", () => {
+    const t = film.currentTime;
+    buttons.forEach(({ btn, start, end }) => btn.setAttribute("aria-current", String(t >= start && t < end)));
+  });
+</script>
+</body>
+</html>
