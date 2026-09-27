@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>PoleStrike Cuts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600&display=swap">
+<style>
+  /* Same night palette as the screening room. */
+  :root {
+    color-scheme: dark;
+    --night: #07090d;
+    --panel: #10141b;
+    --line: #1d2430;
+    --text: #ebebeb;
+    --muted: #8d97a8;
+    --cyan: #0aede7;
+    --display: "Anton", Impact, "Arial Narrow", sans-serif;
+    --body: "Barlow", "Helvetica Neue", Arial, sans-serif;
+    --label: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--night);
+    color: var(--text);
+    font: 16px/1.55 var(--body);
+    padding: max(32px, env(safe-area-inset-top)) 16px max(56px, env(safe-area-inset-bottom));
+  }
+  .wrap { max-width: 1080px; margin-inline: auto; display: grid; gap: 52px; }
+  header { display: grid; justify-items: center; gap: 14px; text-align: center; }
+  header img { width: min(240px, 56vw); height: auto; }
+  header p { margin: 0; color: var(--muted); max-width: 60ch; }
+  h1 {
+    font: 400 clamp(30px, 5vw, 44px)/1.05 var(--display);
+    letter-spacing: .02em; text-transform: uppercase; margin: 0; text-wrap: balance;
+  }
+  h2 {
+    font: 400 26px/1.1 var(--display); letter-spacing: .03em; text-transform: uppercase;
+    margin: 0; text-wrap: balance;
+  }
+  nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+  nav a {
+    font: 600 13px/1 var(--label); letter-spacing: .1em; text-transform: uppercase;
+    color: var(--cyan); text-decoration: none; border: 1px solid var(--line);
+    padding: 10px 14px; border-radius: 3px;
+  }
+  nav a:hover, nav a:focus-visible { border-color: var(--cyan); }
+  section { display: grid; gap: 18px; }
+  .head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+  .label { font: 600 12px/1 var(--label); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .note { margin: 0; color: var(--muted); max-width: 70ch; }
+  .cuts, .sheets { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 28px 24px; }
+  .sheets { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
+  figure { margin: 0; display: grid; gap: 10px; align-content: start; }
+  video, figure img {
+    display: block; width: 100%; height: auto; background: #000;
+    border: 1px solid var(--line); border-radius: 6px;
+  }
+  .sheets img { aspect-ratio: 16 / 10; object-fit: cover; object-position: top; }
+  .sheets a { display: block; border-radius: 6px; }
+  .sheets a:hover img, .sheets a:focus-visible img { border-color: var(--cyan); }
+  figcaption { display: grid; gap: 3px; }
+  figcaption b { font: 600 16px/1.2 var(--label); letter-spacing: .04em; }
+  figcaption span { font: 500 13px/1.3 var(--label); color: var(--muted); font-variant-numeric: tabular-nums; }
+  figcaption p { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
+  .stings { display: grid; grid-template-columns: 1.78fr 1fr 0.56fr; gap: 20px; align-items: end; }
+  .stings video { border-radius: 4px; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; }
+  @media (max-width: 720px) {
+    .stings { grid-template-columns: 1fr 0.56fr; }
+    .stings figure.wide { grid-column: 1 / -1; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="../room/logo.png" alt="PoleStrike logo: the rainbow bottle emblem over the PoleStrike wordmark" width="900" height="615">
+    <h1>Every cut so far</h1>
+    <p>Every PoleStrike film version in one place, plus the look tests behind them. As of 27 September 2026.</p>
+    <nav aria-label="Other pages">
+      <a href="../room/">Screening room</a>
+      <a href="../">Lab cut page</a>
+    </nav>
+  </header>
+
+  <section aria-labelledby="hero-h">
+    <div class="head">
+      <h2 id="hero-h">Hero film</h2>
+      <span class="label">Tap play for sound</span>
+    </div>
+    <div class="cuts">
+      <figure>
+        <video controls playsinline preload="metadata" poster="../room/poster.jpg" src="../room/film.mp4"></video>
+        <figcaption>
+          <b>Test cut v2.4</b>
+          <span>1:03 · 720p · temp music</span>
+          <p>About a third is the new final render. The rest is the earlier draft, marked DRAFT in the corner.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <video controls playsinline preload="metadata" poster="../poster-r0.jpg" src="../v2lab-720p-r0.mp4"></video>
+        <figcaption>
+          <b>Lab cut</b>
+          <span>1:03 · 720p · temp music</span>
+          <p>Look test from the render PC: new tone and grain, plus the new bottle shape.</p>
+        </figcaption>
+      </figure>
+      <figure>
+        <video controls playsinline preload="metadata" poster="../poster-r0.jpg" src="lab-cut-phone.mp4"></video>
+        <figcaption>
+          <b>Lab cut, phone copy</b>
+          <span>1:03 · 720p · no sound · 7 MB</span>
+          <p>The same cut in a smaller file.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="throw-h">
+    <h2 id="throw-h">One Throw</h2>
+    <div class="cuts">
+      <figure>
+        <video controls playsinline preload="metadata" poster="one-throw-v05.jpg" src="one-throw-v05.mp4"></video>
+        <figcaption>
+          <b>One Throw v0.5</b>
+          <span>0:35 · 1080p · no sound</span>
+          <p>The short spot. The bottle glows the whole time, and each shot holds longer.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="stings-h">
+    <div class="head">
+      <h2 id="stings-h">Logo end screens</h2>
+      <span class="label">4 s · no sound</span>
+    </div>
+    <div class="stings">
+      <figure class="wide">
+        <video src="../room/sting_wide.mp4" autoplay muted loop playsinline aria-label="Wide logo end screen"></video>
+        <figcaption><b>Wide 16:9</b></figcaption>
+      </figure>
+      <figure>
+        <video src="../room/sting_square.mp4" autoplay muted loop playsinline aria-label="Square logo end screen"></video>
+        <figcaption><b>Square 1:1</b></figcaption>
+      </figure>
+      <figure>
+        <video src="../room/sting_vertical.mp4" autoplay muted loop playsinline aria-label="Vertical logo end screen"></video>
+        <figcaption><b>Vertical 9:16</b></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="look-h">
+    <h2 id="look-h">Look tests</h2>
+    <p class="note">Test sheets from the render PC, in the order they were tried. Tap one to open it full size.</p>
+    <div class="sheets">
+      <figure>
+        <a href="lab-02-tone.jpg"><img src="lab-02-tone.jpg" alt="Loop 2 test sheet: three tone curves compared" width="1920" height="1080" loading="lazy"></a>
+        <figcaption><b>Loop 2 · Tone</b><span>Three tone curves, side by side</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-03-bokeh.jpg"><img src="lab-03-bokeh.jpg" alt="Loop 3 test sheet: background lights at four sample counts" width="2160" height="660" loading="lazy"></a>
+        <figcaption><b>Loop 3 · Bokeh</b><span>Background lights from 128 to 1024 samples</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-04b-samples.jpg"><img src="lab-04b-samples.jpg" alt="Loop 4b test sheet: shots at two quality settings" width="960" height="2700" loading="lazy"></a>
+        <figcaption><b>Loop 4b · Render quality</b><span>Which shots need the slower, cleaner setting</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-05-titles.jpg"><img src="lab-05-titles.jpg" alt="Loop 5 test sheet: titles under three tone settings" width="1920" height="1080" loading="lazy"></a>
+        <figcaption><b>Loop 5 · Titles</b><span>How the titles read under the new tone</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-06-start.jpg"><img src="lab-06-start.jpg" alt="Loop 6 test sheet: key frames before the later look changes" width="2304" height="864" loading="lazy"></a>
+        <figcaption><b>Loop 6 · Starting point</b><span>Key frames before loops 6 to 12</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-07-lights.jpg"><img src="lab-07-lights.jpg" alt="Loop 7 test sheet: light strength without and with denoise" width="1280" height="2160" loading="lazy"></a>
+        <figcaption><b>Loop 7 · Lights</b><span>Light strength, without and with denoise</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-09-finish.jpg"><img src="lab-09-finish.jpg" alt="Loop 9 test sheet: finish options compared" width="1920" height="2160" loading="lazy"></a>
+        <figcaption><b>Loop 9 · Finish</b><span>Before, then two grain and vignette options</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-12-bottle.jpg"><img src="lab-12-bottle.jpg" alt="Loop 12 test sheet: the new bottle shape across the film" width="2304" height="432" loading="lazy"></a>
+        <figcaption><b>Loop 12 · Bottle shape</b><span>The new bottle shape across the film</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-12b-glow.jpg"><img src="lab-12b-glow.jpg" alt="Loop 12b test sheet: two bottle glow settings" width="960" height="1890" loading="lazy"></a>
+        <figcaption><b>Loop 12b · Bottle glow</b><span>The flatter glow keeps the bottle's shape in flight</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-12c-final.jpg"><img src="lab-12c-final.jpg" alt="Loop 12c test sheet: the final lab look" width="1440" height="1080" loading="lazy"></a>
+        <figcaption><b>Loop 12c · Final lab look</b><span>The look the lab cut uses</span></figcaption>
+      </figure>
+      <figure>
+        <a href="lab-cut-every-shot.jpg"><img src="lab-cut-every-shot.jpg" alt="Contact sheet of 63 frames from the lab cut" width="2592" height="1472" loading="lazy"></a>
+        <figcaption><b>Lab cut · Every shot</b><span>63 frames from the lab cut</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <footer>PoleStrike · patent pending · shared privately for review</footer>
+</div>
+</body>
+</html>
