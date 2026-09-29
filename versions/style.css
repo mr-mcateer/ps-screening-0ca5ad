@@ -1,0 +1,65 @@
+  /* Same night palette as the screening room. */
+  :root {
+    color-scheme: dark;
+    --night: #07090d;
+    --panel: #10141b;
+    --line: #1d2430;
+    --text: #ebebeb;
+    --muted: #8d97a8;
+    --cyan: #0aede7;
+    --display: "Anton", Impact, "Arial Narrow", sans-serif;
+    --body: "Barlow", "Helvetica Neue", Arial, sans-serif;
+    --label: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--night);
+    color: var(--text);
+    font: 16px/1.55 var(--body);
+    padding: max(32px, env(safe-area-inset-top)) 16px max(56px, env(safe-area-inset-bottom));
+  }
+  .wrap { max-width: 1080px; margin-inline: auto; display: grid; gap: 52px; }
+  header { display: grid; justify-items: center; gap: 14px; text-align: center; }
+  header img { width: min(240px, 56vw); height: auto; }
+  header p { margin: 0; color: var(--muted); max-width: 60ch; }
+  h1 {
+    font: 400 clamp(30px, 5vw, 44px)/1.05 var(--display);
+    letter-spacing: .02em; text-transform: uppercase; margin: 0; text-wrap: balance;
+  }
+  h2 {
+    font: 400 26px/1.1 var(--display); letter-spacing: .03em; text-transform: uppercase;
+    margin: 0; text-wrap: balance;
+  }
+  nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+  nav a {
+    font: 600 13px/1 var(--label); letter-spacing: .1em; text-transform: uppercase;
+    color: var(--cyan); text-decoration: none; border: 1px solid var(--line);
+    padding: 10px 14px; border-radius: 3px;
+  }
+  nav a:hover, nav a:focus-visible { border-color: var(--cyan); }
+  section { display: grid; gap: 18px; }
+  .head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+  .label { font: 600 12px/1 var(--label); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .note { margin: 0; color: var(--muted); max-width: 70ch; }
+  .cuts, .sheets { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 28px 24px; }
+  .sheets { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
+  figure { margin: 0; display: grid; gap: 10px; align-content: start; }
+  video, figure img {
+    display: block; width: 100%; height: auto; background: #000;
+    border: 1px solid var(--line); border-radius: 6px;
+  }
+  .sheets img { aspect-ratio: 16 / 10; object-fit: cover; object-position: top; }
+  .sheets a { display: block; border-radius: 6px; }
+  .sheets a:hover img, .sheets a:focus-visible img { border-color: var(--cyan); }
+  figcaption { display: grid; gap: 3px; }
+  figcaption b { font: 600 16px/1.2 var(--label); letter-spacing: .04em; }
+  figcaption span { font: 500 13px/1.3 var(--label); color: var(--muted); font-variant-numeric: tabular-nums; }
+  figcaption p { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
+  .stings { display: grid; grid-template-columns: 1.78fr 1fr 0.56fr; gap: 20px; align-items: end; }
+  .stings video { border-radius: 4px; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; }
+  @media (max-width: 720px) {
+    .stings { grid-template-columns: 1fr 0.56fr; }
+    .stings figure.wide { grid-column: 1 / -1; }
+  }

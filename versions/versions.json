@@ -1,0 +1,159 @@
+{
+  "asof": "28 September 2026",
+  "sections": [
+    {
+      "id": "beach",
+      "title": "Beach film · Last Light",
+      "label": "Draft cuts · tap play for sound",
+      "note": "Sunset to bonfire night on the beach. Every draft, newest first, with what changed since the one before it and the machine that rendered it.",
+      "kind": "cuts",
+      "items": [
+        {
+          "title": "Draft v0.3",
+          "video": "beach-v0.3.mp4",
+          "poster": "beach-v0.3.jpg",
+          "meta": "1:20 · 640x360 draft · music",
+          "date": "28 Sep 2026",
+          "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
+          "tldr": "First look pass. Director score up from 5.6 to 6.7.",
+          "changes": [
+            "Golden hour sits lower and warmer, with a real orange sun",
+            "Driftwood and beach debris added along the sand",
+            "Discs are bigger and read in flight",
+            "Campfire lights the friends shot instead of leaving it near black",
+            "The bottle's colour holds through the first throw",
+            "PICK YOUR LIGHT SHOW. now clears the rainbow pole"
+          ]
+        },
+        {
+          "title": "Draft v0.2",
+          "video": "beach-v0.2.mp4",
+          "poster": "beach-v0.2.jpg",
+          "meta": "1:20 · 640x360 draft · music",
+          "date": "28 Sep 2026",
+          "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
+          "tldr": "Four review fixes on the same timing as v0.1.",
+          "changes": [
+            "Bottle no longer picks up a tint from a stray light",
+            "End card uses the rainbow logo with a white wordmark",
+            "Camp shots lose their orange cast",
+            "PICK YOUR LIGHT SHOW. moved clear of the phone"
+          ]
+        },
+        {
+          "title": "Draft v0.1",
+          "video": "beach-v0.1.mp4",
+          "poster": "beach-v0.1.jpg",
+          "meta": "1:20 · 640x360 draft · music",
+          "date": "28 Sep 2026",
+          "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
+          "tldr": "First full cut: 24 shots from golden hour to the bonfire game, on the music grid.",
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "title": "Hero film · Light 'Em Up",
+      "label": "Tap play for sound",
+      "note": "",
+      "kind": "cuts",
+      "items": [
+        {
+          "title": "Final v2.4",
+          "video": "film-v2.4-final.mp4",
+          "poster": "film-v2.4-final.jpg",
+          "meta": "1:03 · 720p web copy of the 1080p final · music",
+          "date": "28 Sep 2026",
+          "rendered": "Mac mini M4 · Blender Cycles on Metal · 1080p, all 1516 frames",
+          "tldr": "Every frame is now the final render. No draft frames left.",
+          "changes": [
+            "Rule card reads FIRST TO TWENTY ONE. / WIN BY TWO.",
+            "Shots with out-of-focus lights render at higher quality to clean up the bokeh"
+          ]
+        },
+        {
+          "title": "Test cut v2.4",
+          "video": "../room/film.mp4",
+          "poster": "../room/poster.jpg",
+          "meta": "1:03 · 720p · music",
+          "date": "27 Sep 2026",
+          "rendered": "Mac mini M4 · final frames mixed with earlier draft frames",
+          "tldr": "About a third is the new final render. The rest is the earlier draft, marked DRAFT in the corner.",
+          "changes": []
+        },
+        {
+          "title": "Lab cut",
+          "video": "../v2lab-720p-r0.mp4",
+          "poster": "../poster-r0.jpg",
+          "meta": "1:03 · 720p · music",
+          "date": "26 Sep 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
+          "tldr": "Look test from the render PC: new tone and grain, plus the new bottle shape.",
+          "changes": []
+        },
+        {
+          "title": "Lab cut, phone copy",
+          "video": "lab-cut-phone.mp4",
+          "poster": "../poster-r0.jpg",
+          "meta": "1:03 · 720p · no sound · 7 MB",
+          "date": "26 Sep 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
+          "tldr": "The same cut in a smaller file.",
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "throw",
+      "title": "One Throw",
+      "label": "",
+      "note": "",
+      "kind": "cuts",
+      "items": [
+        {
+          "title": "One Throw v0.5",
+          "video": "one-throw-v05.mp4",
+          "poster": "one-throw-v05.jpg",
+          "meta": "0:34 · 1080p · no sound",
+          "date": "25 Sep 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
+          "tldr": "The short spot. The bottle glows the whole time, and each shot holds longer.",
+          "changes": []
+        }
+      ]
+    },
+    {
+      "id": "stings",
+      "title": "Logo end screens",
+      "label": "4 s · no sound",
+      "note": "Rendered on the Mac mini M4.",
+      "kind": "stings",
+      "items": [
+        {"title": "Wide 16:9", "video": "../room/sting_wide.mp4", "poster": "sting-wide.jpg", "cls": "wide"},
+        {"title": "Square 1:1", "video": "../room/sting_square.mp4", "poster": "sting-square.jpg"},
+        {"title": "Vertical 9:16", "video": "../room/sting_vertical.mp4", "poster": "sting-vertical.jpg"}
+      ]
+    },
+    {
+      "id": "look",
+      "title": "Look tests",
+      "label": "",
+      "note": "Test sheets from the render PC (RTX 3060), in the order they were tried. Tap one to open it full size.",
+      "kind": "sheets",
+      "items": [
+        {"title": "Loop 2 · Tone", "img": "lab-02-tone.jpg", "sub": "Three tone curves, side by side", "alt": "Loop 2 test sheet: three tone curves compared", "w": 1920, "h": 1080},
+        {"title": "Loop 3 · Bokeh", "img": "lab-03-bokeh.jpg", "sub": "Background lights from 128 to 1024 samples", "alt": "Loop 3 test sheet: background lights at four sample counts", "w": 2160, "h": 660},
+        {"title": "Loop 4b · Render quality", "img": "lab-04b-samples.jpg", "sub": "Which shots need the slower, cleaner setting", "alt": "Loop 4b test sheet: shots at two quality settings", "w": 960, "h": 2700},
+        {"title": "Loop 5 · Titles", "img": "lab-05-titles.jpg", "sub": "How the titles read under the new tone", "alt": "Loop 5 test sheet: titles under three tone settings", "w": 1920, "h": 1080},
+        {"title": "Loop 6 · Starting point", "img": "lab-06-start.jpg", "sub": "Key frames before loops 6 to 12", "alt": "Loop 6 test sheet: key frames before the later look changes", "w": 2304, "h": 864},
+        {"title": "Loop 7 · Lights", "img": "lab-07-lights.jpg", "sub": "Light strength, without and with denoise", "alt": "Loop 7 test sheet: light strength without and with denoise", "w": 1280, "h": 2160},
+        {"title": "Loop 9 · Finish", "img": "lab-09-finish.jpg", "sub": "Before, then two grain and vignette options", "alt": "Loop 9 test sheet: finish options compared", "w": 1920, "h": 2160},
+        {"title": "Loop 12 · Bottle shape", "img": "lab-12-bottle.jpg", "sub": "The new bottle shape across the film", "alt": "Loop 12 test sheet: the new bottle shape across the film", "w": 2304, "h": 432},
+        {"title": "Loop 12b · Bottle glow", "img": "lab-12b-glow.jpg", "sub": "The flatter glow keeps the bottle's shape in flight", "alt": "Loop 12b test sheet: two bottle glow settings", "w": 960, "h": 1890},
+        {"title": "Loop 12c · Final lab look", "img": "lab-12c-final.jpg", "sub": "The look the lab cut uses", "alt": "Loop 12c test sheet: the final lab look", "w": 1440, "h": 1080},
+        {"title": "Lab cut · Every shot", "img": "lab-cut-every-shot.jpg", "sub": "63 frames from the lab cut", "alt": "Contact sheet of 63 frames from the lab cut", "w": 2592, "h": 1472}
+      ]
+    }
+  ]
+}
