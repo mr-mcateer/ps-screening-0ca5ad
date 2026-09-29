@@ -1,5 +1,5 @@
 {
-  "asof": "28 September 2026",
+  "asof": "29 Sep 2026",
   "sections": [
     {
       "id": "beach",
@@ -8,6 +8,23 @@
       "note": "Sunset to bonfire night on the beach. Every draft, newest first, with what changed since the one before it and the machine that rendered it.",
       "kind": "cuts",
       "items": [
+        {
+          "title": "Draft v0.4",
+          "video": "beach-v0.4.mp4",
+          "poster": "beach-v0.4.jpg",
+          "meta": "1:20 · 1280x720 · music",
+          "date": "29 Sep 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 128 samples",
+          "tldr": "6 look changes kept by the look-dev loop (cycles C001 to C011).",
+          "changes": [
+            "The distant headland now has a broken, ridged skyline instead of a smooth dome.",
+            "The lit bottles glow with a hot near-white core and team colour at the edges, like a real camera sees them.",
+            "The sunlit tube in the golden-hour close-up reads round and glowing, not flat.",
+            "The driftwood seats round the fire are weathered logs with grain, cracks and broken ends.",
+            "The hoodie left on a seat drapes over the log like real cloth.",
+            "The sandals by the fire are real flip-flops, not blocks."
+          ]
+        },
         {
           "title": "Draft v0.3",
           "video": "beach-v0.3.mp4",
@@ -130,9 +147,22 @@
       "note": "Rendered on the Mac mini M4.",
       "kind": "stings",
       "items": [
-        {"title": "Wide 16:9", "video": "../room/sting_wide.mp4", "poster": "sting-wide.jpg", "cls": "wide"},
-        {"title": "Square 1:1", "video": "../room/sting_square.mp4", "poster": "sting-square.jpg"},
-        {"title": "Vertical 9:16", "video": "../room/sting_vertical.mp4", "poster": "sting-vertical.jpg"}
+        {
+          "title": "Wide 16:9",
+          "video": "../room/sting_wide.mp4",
+          "poster": "sting-wide.jpg",
+          "cls": "wide"
+        },
+        {
+          "title": "Square 1:1",
+          "video": "../room/sting_square.mp4",
+          "poster": "sting-square.jpg"
+        },
+        {
+          "title": "Vertical 9:16",
+          "video": "../room/sting_vertical.mp4",
+          "poster": "sting-vertical.jpg"
+        }
       ]
     },
     {
@@ -142,17 +172,94 @@
       "note": "Test sheets from the render PC (RTX 3060), in the order they were tried. Tap one to open it full size.",
       "kind": "sheets",
       "items": [
-        {"title": "Loop 2 · Tone", "img": "lab-02-tone.jpg", "sub": "Three tone curves, side by side", "alt": "Loop 2 test sheet: three tone curves compared", "w": 1920, "h": 1080},
-        {"title": "Loop 3 · Bokeh", "img": "lab-03-bokeh.jpg", "sub": "Background lights from 128 to 1024 samples", "alt": "Loop 3 test sheet: background lights at four sample counts", "w": 2160, "h": 660},
-        {"title": "Loop 4b · Render quality", "img": "lab-04b-samples.jpg", "sub": "Which shots need the slower, cleaner setting", "alt": "Loop 4b test sheet: shots at two quality settings", "w": 960, "h": 2700},
-        {"title": "Loop 5 · Titles", "img": "lab-05-titles.jpg", "sub": "How the titles read under the new tone", "alt": "Loop 5 test sheet: titles under three tone settings", "w": 1920, "h": 1080},
-        {"title": "Loop 6 · Starting point", "img": "lab-06-start.jpg", "sub": "Key frames before loops 6 to 12", "alt": "Loop 6 test sheet: key frames before the later look changes", "w": 2304, "h": 864},
-        {"title": "Loop 7 · Lights", "img": "lab-07-lights.jpg", "sub": "Light strength, without and with denoise", "alt": "Loop 7 test sheet: light strength without and with denoise", "w": 1280, "h": 2160},
-        {"title": "Loop 9 · Finish", "img": "lab-09-finish.jpg", "sub": "Before, then two grain and vignette options", "alt": "Loop 9 test sheet: finish options compared", "w": 1920, "h": 2160},
-        {"title": "Loop 12 · Bottle shape", "img": "lab-12-bottle.jpg", "sub": "The new bottle shape across the film", "alt": "Loop 12 test sheet: the new bottle shape across the film", "w": 2304, "h": 432},
-        {"title": "Loop 12b · Bottle glow", "img": "lab-12b-glow.jpg", "sub": "The flatter glow keeps the bottle's shape in flight", "alt": "Loop 12b test sheet: two bottle glow settings", "w": 960, "h": 1890},
-        {"title": "Loop 12c · Final lab look", "img": "lab-12c-final.jpg", "sub": "The look the lab cut uses", "alt": "Loop 12c test sheet: the final lab look", "w": 1440, "h": 1080},
-        {"title": "Lab cut · Every shot", "img": "lab-cut-every-shot.jpg", "sub": "63 frames from the lab cut", "alt": "Contact sheet of 63 frames from the lab cut", "w": 2592, "h": 1472}
+        {
+          "title": "Loop 2 · Tone",
+          "img": "lab-02-tone.jpg",
+          "sub": "Three tone curves, side by side",
+          "alt": "Loop 2 test sheet: three tone curves compared",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "title": "Loop 3 · Bokeh",
+          "img": "lab-03-bokeh.jpg",
+          "sub": "Background lights from 128 to 1024 samples",
+          "alt": "Loop 3 test sheet: background lights at four sample counts",
+          "w": 2160,
+          "h": 660
+        },
+        {
+          "title": "Loop 4b · Render quality",
+          "img": "lab-04b-samples.jpg",
+          "sub": "Which shots need the slower, cleaner setting",
+          "alt": "Loop 4b test sheet: shots at two quality settings",
+          "w": 960,
+          "h": 2700
+        },
+        {
+          "title": "Loop 5 · Titles",
+          "img": "lab-05-titles.jpg",
+          "sub": "How the titles read under the new tone",
+          "alt": "Loop 5 test sheet: titles under three tone settings",
+          "w": 1920,
+          "h": 1080
+        },
+        {
+          "title": "Loop 6 · Starting point",
+          "img": "lab-06-start.jpg",
+          "sub": "Key frames before loops 6 to 12",
+          "alt": "Loop 6 test sheet: key frames before the later look changes",
+          "w": 2304,
+          "h": 864
+        },
+        {
+          "title": "Loop 7 · Lights",
+          "img": "lab-07-lights.jpg",
+          "sub": "Light strength, without and with denoise",
+          "alt": "Loop 7 test sheet: light strength without and with denoise",
+          "w": 1280,
+          "h": 2160
+        },
+        {
+          "title": "Loop 9 · Finish",
+          "img": "lab-09-finish.jpg",
+          "sub": "Before, then two grain and vignette options",
+          "alt": "Loop 9 test sheet: finish options compared",
+          "w": 1920,
+          "h": 2160
+        },
+        {
+          "title": "Loop 12 · Bottle shape",
+          "img": "lab-12-bottle.jpg",
+          "sub": "The new bottle shape across the film",
+          "alt": "Loop 12 test sheet: the new bottle shape across the film",
+          "w": 2304,
+          "h": 432
+        },
+        {
+          "title": "Loop 12b · Bottle glow",
+          "img": "lab-12b-glow.jpg",
+          "sub": "The flatter glow keeps the bottle's shape in flight",
+          "alt": "Loop 12b test sheet: two bottle glow settings",
+          "w": 960,
+          "h": 1890
+        },
+        {
+          "title": "Loop 12c · Final lab look",
+          "img": "lab-12c-final.jpg",
+          "sub": "The look the lab cut uses",
+          "alt": "Loop 12c test sheet: the final lab look",
+          "w": 1440,
+          "h": 1080
+        },
+        {
+          "title": "Lab cut · Every shot",
+          "img": "lab-cut-every-shot.jpg",
+          "sub": "63 frames from the lab cut",
+          "alt": "Contact sheet of 63 frames from the lab cut",
+          "w": 2592,
+          "h": 1472
+        }
       ]
     }
   ]
