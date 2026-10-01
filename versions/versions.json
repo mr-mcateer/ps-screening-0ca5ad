@@ -1,5 +1,5 @@
 {
-  "asof": "29 Sep 2026",
+  "asof": "1 Oct 2026",
   "sections": [
     {
       "id": "beach",
@@ -8,6 +8,16 @@
       "note": "Sunset to bonfire night on the beach. Every draft, newest first, with what changed since the one before it and the machine that rendered it.",
       "kind": "cuts",
       "items": [
+        {
+          "title": "Draft v0.5_1080",
+          "video": "beach-v0.5_1080.mp4",
+          "poster": "beach-v0.5_1080.jpg",
+          "meta": "1:20 · 1920x1080 master · music",
+          "date": "1 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+          "tldr": "Re-render of the current look with no new kept changes.",
+          "changes": []
+        },
         {
           "title": "Draft v0.4",
           "video": "beach-v0.4.mp4",
