@@ -2,6 +2,29 @@
   "asof": "1 Oct 2026",
   "sections": [
     {
+      "id": "launch",
+      "title": "Launch film",
+      "label": "Story cuts · tap play for sound",
+      "note": "Backyard at golden hour to the game after dark, then anywhere. Built story first: each cut is checked on whether a first-time viewer gets the game, the catch, the lights and wants one. Cards mark shots still to come.",
+      "kind": "cuts",
+      "items": [
+        {
+          "title": "Story cut v0.4",
+          "video": "launch-v0.4.mp4",
+          "poster": "launch-v0.4.jpg",
+          "meta": "1:03 · 1920x1080 · music",
+          "date": "1 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+          "tldr": "First story-first cut. Golden-hour backyard opening with the real knock, lights on at the drop, beach turn and win. Release and catch shots are still cards.",
+          "changes": [
+            "New golden-hour backyard: wide, slow-motion knock, sunset",
+            "Knock physics measured against real slow-motion footage",
+            "Story checked by a cold viewer panel: 8.2 of 10"
+          ]
+        }
+      ]
+    },
+    {
       "id": "beach",
       "title": "Beach film · Last Light",
       "label": "Draft cuts · tap play for sound",
