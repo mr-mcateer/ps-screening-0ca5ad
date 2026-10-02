@@ -9,6 +9,20 @@
       "kind": "cuts",
       "items": [
         {
+          "title": "Story cut v0.10",
+          "video": "launch-v0.10.mp4",
+          "poster": "launch-v0.10.jpg",
+          "meta": "0:57 · 1920x1080 · music",
+          "date": "2 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
+          "tldr": "Accuracy pass on v0.9. The knock now shows the disc hitting the bottle and both falling away, and the lit pole reads as an even LED glow, not a flame. No first-time viewer read it as fire.",
+          "changes": [
+            "Knock is the measured physics shot: disc strikes the bottle, both fall into the grass",
+            "Lit pole graded to a clean LED red; the flame-looking close-up is cut",
+            "Same cut and timing as v0.9 otherwise"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
