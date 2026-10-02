@@ -9,6 +9,20 @@
       "kind": "cuts",
       "items": [
         {
+          "title": "Story cut v0.9",
+          "video": "launch-v0.9.mp4",
+          "poster": "launch-v0.9.jpg",
+          "meta": "0:57 · 1920x1080 · music",
+          "date": "2 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
+          "tldr": "One full round, start to finish, on the beat: the throw, the knock, the dive, the catch, the cheer. First-time viewers rate it 7 of 10 for stopping the scroll, up from 6, and most name the moment the poles light up on the drop.",
+          "changes": [
+            "A real round up front, every shot under two seconds",
+            "The rules in one look: KNOCK IT OFF: TWO POINTS. CATCH IT: ZERO.",
+            "A big finish: the last throw knocks the glowing bottle off and the crew erupts on the loudest bar"
+          ]
+        },
+        {
           "title": "Story cut v0.8",
           "video": "launch-v0.8.mp4",
           "poster": "launch-v0.8.jpg",
