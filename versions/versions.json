@@ -9,6 +9,20 @@
       "kind": "cuts",
       "items": [
         {
+          "title": "Story cut v0.7",
+          "video": "launch-v0.7.mp4",
+          "poster": "launch-v0.7.jpg",
+          "meta": "1:06 · 1920x1080 · music",
+          "date": "1 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand shots generated",
+          "tldr": "No text cards left: every shot is picture. Hand shots now show the throw, the golden-hour catch and the night catch with the glowing bottle. A close-up of the bottle on the pole after the opening wide helped first-time viewers most.",
+          "changes": [
+            "The three cards are now hand shots: the release, a catch in low sun, two hands closing round the lit bottle at night",
+            "Golden-hour close-up of the bottle on the pole top right after the opening wide",
+            "Starts two bars earlier in the song; knock-off to end card keeps its timing"
+          ]
+        },
+        {
           "title": "Story cut v0.4",
           "video": "launch-v0.4.mp4",
           "poster": "launch-v0.4.jpg",
