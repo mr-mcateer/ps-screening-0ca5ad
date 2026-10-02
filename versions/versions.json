@@ -1,5 +1,5 @@
 {
-  "asof": "1 Oct 2026",
+  "asof": "2 Oct 2026",
   "sections": [
     {
       "id": "launch",
@@ -8,6 +8,20 @@
       "note": "Backyard at golden hour to the game after dark, then anywhere. Built story first: each cut is checked on whether a first-time viewer gets the game, the catch, the lights and wants one. Cards mark shots still to come.",
       "kind": "cuts",
       "items": [
+        {
+          "title": "Story cut v0.8",
+          "video": "launch-v0.8.mp4",
+          "poster": "launch-v0.8.jpg",
+          "meta": "1:06 · 1920x1080 · music",
+          "date": "2 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
+          "tldr": "Real people and a real catch. Friends play in silhouette at sunset and under the lit poles, and the glowing bottle now drops into the hands. 11 of 12 first-time viewers named that night catch as the moment they remember.",
+          "changes": [
+            "One bottle everywhere, frosted by day and glowing from inside at night",
+            "A crew in silhouette: a diving catch opens the film, a sunset high-five, the crew cheering under the lit poles",
+            "The night is readable: a dark wide before the lights, then the lit set with the crew; both catches move"
+          ]
+        },
         {
           "title": "Story cut v0.7",
           "video": "launch-v0.7.mp4",
