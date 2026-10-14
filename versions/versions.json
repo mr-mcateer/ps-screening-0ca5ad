@@ -1,5 +1,5 @@
 {
-  "asof": "2 Oct 2026",
+  "asof": "14 Oct 2026",
   "sections": [
     {
       "id": "launch",
@@ -155,6 +155,55 @@
           "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
           "tldr": "First full cut: 24 shots from golden hour to the bonfire game, on the music grid.",
           "changes": []
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "title": "Social cuts",
+      "label": "Vertical cuts · tap play for sound",
+      "note": "The beach film cut down for phones, 9:16 at full phone resolution. Review builds: each carries its review line at the top.",
+      "kind": "cuts",
+      "items": [
+        {
+          "title": "Social 30 s",
+          "video": "social30-native.mp4",
+          "poster": "social30-native.jpg",
+          "meta": "0:30 · 1080x1920 vertical · music",
+          "date": "14 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+          "tldr": "The beach film cut for Reels, Stories and Shorts: lit from the first frame, the throw, the app, the score at game point, the answer strike, the lockup. Every frame rendered again at phone size, no upscaled crop.",
+          "changes": [
+            "Opens on the lit bottle and the app pairing; the crane into the lane",
+            "Pick your light show over the app; first to twenty one, win by two over the score",
+            "Knock their bottle off on the answer strike, then the logo and the address"
+          ]
+        },
+        {
+          "title": "Social 15 s",
+          "video": "social15-native.mp4",
+          "poster": "social15-native.jpg",
+          "meta": "0:15 · 1080x1920 vertical · music",
+          "date": "14 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+          "tldr": "The short one: the light, the throw, the goal, the address. No app screens.",
+          "changes": [
+            "Lit bottle from frame one, the throw and the red disc",
+            "The bottle in the sand under Knock their bottle off",
+            "Logo and address on the drop"
+          ]
+        },
+        {
+          "title": "Bumper 6 s",
+          "video": "bumper-native.mp4",
+          "poster": "bumper-native.jpg",
+          "meta": "0:06 · 1080x1920 vertical · music",
+          "date": "14 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+          "tldr": "Six seconds for feeds that play silent: the tube fills, the rainbow, the lockup with the address. Reads with the sound off.",
+          "changes": [
+            "Tube fill, rainbow pole, logo lockup"
+          ]
         }
       ]
     },
