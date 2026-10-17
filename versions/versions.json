@@ -1,5 +1,5 @@
 {
-  "asof": "14 Oct 2026",
+  "asof": "17 Oct 2026",
   "sections": [
     {
       "id": "launch",
@@ -20,6 +20,18 @@
             "Knock is the measured physics shot: disc strikes the bottle, both fall into the grass",
             "Lit pole graded to a clean LED red; the flame-looking close-up is cut",
             "Same cut and timing as v0.9 otherwise"
+          ]
+        },
+        {
+          "title": "Draft v0.11 r21",
+          "video": "launch-v0.11r21.mp4",
+          "poster": "launch-v0.11r21.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "The knock render now runs on in slow motion so the falling pieces hang under the catch title, and the cut to the real prototype lands on the bar line. Best of the rounds, but short of the bar: the catch still reads weakly. Panel P 7.85 vs best 8.42; takeaways 9.75/7.08/8.75/10.00; stop 6.25; send 5.25.",
+          "changes": [
+            "Catch beat from the knock render at 0.4x under the catch title; the hard cut to the real prototype lands on the bar line"
           ]
         },
         {
