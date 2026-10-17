@@ -107,6 +107,18 @@
           ]
         },
         {
+          "title": "Draft v0.11 r28",
+          "video": "launch-v0.11r28.mp4",
+          "poster": "launch-v0.11r28.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "The CG thrower opens the film for 2.4 s, with the r27 title kept. Up 0.11, short of the 0.25 the loop needs, and only 1 of 12 noticed the thrower. Panel P 7.57 vs best 7.46; takeaways 10.00/8.08/7.58/8.92; stop 5.92; send 4.92.",
+          "changes": [
+            "CG thrower from behind the first pole opens the film, plus the r27 title"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
