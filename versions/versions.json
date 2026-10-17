@@ -59,6 +59,18 @@
           ]
         },
         {
+          "title": "Draft v0.11 r24",
+          "video": "launch-v0.11r24.mp4",
+          "poster": "launch-v0.11r24.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "The knock fills the frame, cropped 1.7x on the pole top. The catch read rose, but stop and send fell and still nobody is seen throwing or catching. Panel P 7.51 vs best 7.56; takeaways 9.83/8.17/7.33/8.83; stop 5.92; send 5.00.",
+          "changes": [
+            "Knock and fall cropped 1.7x on the pole top"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
