@@ -83,6 +83,18 @@
           ]
         },
         {
+          "title": "Draft v0.11 r26",
+          "video": "launch-v0.11r26.mp4",
+          "poster": "launch-v0.11r26.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "The film opens cold on the real catch, with the CG knock after it. The catch read rose, but mixing renders with phone footage up front cost the lights read and the urge to share. Panel P 7.88 vs best 8.18; takeaways 9.92/8.42/8.83/9.83; stop 6.00; send 4.25.",
+          "changes": [
+            "Cold open on the real catch in place of the opening render"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
