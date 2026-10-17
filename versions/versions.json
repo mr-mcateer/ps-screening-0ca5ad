@@ -71,6 +71,18 @@
           ]
         },
         {
+          "title": "Draft v0.11 r25",
+          "video": "launch-v0.11r25.mp4",
+          "poster": "launch-v0.11r25.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "A CG thrower gets his own two-beat shot from behind the first pole before the knock. It lost because only 1 of 12 noticed him; under a second on screen does not register. Panel P 7.54 vs best 7.71; takeaways 9.67/6.58/8.17/10.00; stop 5.92; send 4.92.",
+          "changes": [
+            "Two-beat CG thrower shot from behind the first pole before the knock"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
