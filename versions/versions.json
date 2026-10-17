@@ -47,6 +47,18 @@
           ]
         },
         {
+          "title": "Draft v0.11 r23",
+          "video": "launch-v0.11r23.mp4",
+          "poster": "launch-v0.11r23.jpg",
+          "meta": "0:47 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "Three bars cut from the dark middle so the lights come on 4.7 s sooner. It lost because 11 of 12 still named the dark stretch and the game read fell. Panel P 7.26 vs best 7.49; takeaways 8.08/7.67/8.08/8.58; stop 6.00; send 5.17.",
+          "changes": [
+            "Dark middle trimmed by three bars; the lights come on 4.7 s sooner"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
