@@ -95,6 +95,18 @@
           ]
         },
         {
+          "title": "Draft v0.11 r27",
+          "video": "launch-v0.11r27.mp4",
+          "poster": "launch-v0.11r27.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "No black card: the real catch starts on the bar line with the prototype words over it as a title. The card complaint went from 8 of 12 to none, but the ending read fell. Panel P 7.89 vs best 7.99; takeaways 10.00/7.83/9.17/9.42; stop 5.92; send 5.00.",
+          "changes": [
+            "Prototype card words ride as a title over the first real frame; the black card is gone"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
