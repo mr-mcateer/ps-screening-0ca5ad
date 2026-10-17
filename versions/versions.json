@@ -35,6 +35,18 @@
           ]
         },
         {
+          "title": "Draft v0.11 r22",
+          "video": "launch-v0.11r22.mp4",
+          "poster": "launch-v0.11r22.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "17 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "A CG catch seen from the catcher's eyes replaced the held knock under the catch title. It lost because the stand-in hands read as pink sticks to 8 of 12 viewers. Panel P 7.21 vs best 8.42; takeaways 8.58/6.50/7.58/9.00; stop 6.17; send 5.42.",
+          "changes": [
+            "CG catch from the catcher's view: the knocked bottle tumbles into two hands under the catch title"
+          ]
+        },
+        {
           "title": "Story cut v0.9",
           "video": "launch-v0.9.mp4",
           "poster": "launch-v0.9.jpg",
