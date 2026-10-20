@@ -1,5 +1,5 @@
 {
-  "asof": "17 Oct 2026",
+  "asof": "19 Oct 2026",
   "sections": [
     {
       "id": "launch",
@@ -116,6 +116,20 @@
           "tldr": "The CG thrower opens the film for 2.4 s, with the r27 title kept. Up 0.11, short of the 0.25 the loop needs, and only 1 of 12 noticed the thrower. Panel P 7.57 vs best 7.46; takeaways 10.00/8.08/7.58/8.92; stop 5.92; send 4.92.",
           "changes": [
             "CG thrower from behind the first pole opens the film, plus the r27 title"
+          ]
+        },
+        {
+          "title": "Draft v0.12 Lit",
+          "video": "launch-v0.12lit.mp4",
+          "poster": "launch-v0.12lit.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+          "tldr": "One throw, replayed: a single slow-motion shot rides beside the disc while the sun drops. The string lights come on in groups, one per beat, sweeping toward the pole, the whole string glows on the music stop, and the poles ignite on the drop at 27 s. Built on r4, the best-scoring v0.12 cut (panel P 7.97 vs 7.54); this version has not been panelled.",
+          "changes": [
+            "The strike at 2-8 s fills the frame",
+            "The string lights chase on the beat into the ignition, with their warm glow on the fence and lawn",
+            "The card words ride over the first real frames, no black card"
           ]
         },
         {
