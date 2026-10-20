@@ -1,5 +1,5 @@
 {
-  "asof": "19 Oct 2026",
+  "asof": "20 Oct 2026",
   "sections": [
     {
       "id": "launch",
@@ -116,6 +116,90 @@
           "tldr": "The CG thrower opens the film for 2.4 s, with the r27 title kept. Up 0.11, short of the 0.25 the loop needs, and only 1 of 12 noticed the thrower. Panel P 7.57 vs best 7.46; takeaways 10.00/8.08/7.58/8.92; stop 5.92; send 4.92.",
           "changes": [
             "CG thrower from behind the first pole opens the film, plus the r27 title"
+          ]
+        },
+        {
+          "title": "Draft v0.12 r1",
+          "video": "launch-v0.12r1.mp4",
+          "poster": "launch-v0.12r1.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "18-19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "One throw, replayed, as a whole film: a single slow-motion CG shot rides the disc from the release to the knock while the sun drops and the poles ignite on the drop. Rejected, panel P 6.42 vs best 7.74: the long crawl read static and no one saw the game played.",
+          "changes": [
+            "The whole film is the one-throw shot, with the real catch, knock and smile after it"
+          ]
+        },
+        {
+          "title": "Draft v0.12 r2",
+          "video": "launch-v0.12r2.mp4",
+          "poster": "launch-v0.12r2.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "18-19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "The one-throw flight becomes the dark middle of the best cut: dusk, ignition on the drop, the knock in the dark. Just under the keep rule, panel P 7.80 vs 7.60; the lights takeaway rose 0.83 and all 12 named the ignition, but the middle still felt long.",
+          "changes": [
+            "The one-throw shot replaces the dark middle, the ignition and the night strike"
+          ]
+        },
+        {
+          "title": "Draft v0.12 r3",
+          "video": "launch-v0.12r3.mp4",
+          "poster": "launch-v0.12r3.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "18-19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "Adds the card words as a title over the first real frames and a faster flight. Panel P 8.22 vs 8.14, under the keep rule; the catch takeaway reached 8.42, over the 8 bar for the first time, but the strike at 2-8 s read tiny.",
+          "changes": [
+            "Card words ride over the real footage; the flight runs 1.3x to the ignition"
+          ]
+        },
+        {
+          "title": "Draft v0.12 r4",
+          "video": "launch-v0.12r4.mp4",
+          "poster": "launch-v0.12r4.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "18-19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "The strike at 2-8 s fills the frame. KEPT, the best v0.12 cut: panel P 7.97 vs 7.54. The lights takeaway jumped 2.17; the dark 12-26 s stretch and the unclear catch rule are the top complaints.",
+          "changes": [
+            "1.7x window on the strike and fall at 2-8 s"
+          ]
+        },
+        {
+          "title": "Draft v0.12 r5",
+          "video": "launch-v0.12r5.mp4",
+          "poster": "launch-v0.12r5.jpg",
+          "meta": "0:46 · 1920x1080 · music",
+          "date": "18-19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "Cuts 6 s of the dusk flight. Rejected, panel P 7.85 vs 8.01: the middle still read dark and empty, and the catch takeaway fell. A trim does not fix the middle.",
+          "changes": [
+            "Dusk flight 12 s instead of 18 (45.8 s cut)"
+          ]
+        },
+        {
+          "title": "Draft v0.12 r6",
+          "video": "launch-v0.12r6.mp4",
+          "poster": "launch-v0.12r6.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "18-19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "Ends on the real player's smile before a shorter end card. Rejected, panel P 7.63 vs 7.94: stop and send rose a hair, but the shorter card cost the tagline and three takeaways fell.",
+          "changes": [
+            "The film ends on the real smile; end card shortened"
+          ]
+        },
+        {
+          "title": "Draft v0.12 r7",
+          "video": "launch-v0.12r7.mp4",
+          "poster": "launch-v0.12r7.jpg",
+          "meta": "0:52 · 1920x1080 · music",
+          "date": "18-19 Oct 2026",
+          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+          "tldr": "The lit knock runs straight into the score screen, no night wide. Rejected, panel P 7.99 vs 8.08, every takeaway a hair under; the catch still never shown and the dark 12-26 s still the top complaints.",
+          "changes": [
+            "Night wide removed; the lit knock runs into the score screen"
           ]
         },
         {
