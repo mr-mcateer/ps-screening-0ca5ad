@@ -1,598 +1,737 @@
 {
-  "asof": "20 Oct 2026",
-  "sections": [
+ "asof": "24 Oct 2026",
+ "sections": [
+  {
+   "id": "rules",
+   "title": "Rules film",
+   "label": "Motion graphics · silent",
+   "note": "Thirty seconds that teach the game in shapes and type: hit the pole for one, knock the bottle for two, a catch cancels it, first to twenty-one, win by two. Three looks first, then one story built in drafts, each checked by a blind critic. Next pass brings in the brand library logo and the brand guide colour sweep.",
+   "kind": "cuts",
+   "items": [
     {
-      "id": "launch",
-      "title": "Launch film",
-      "label": "Story cuts · tap play for sound",
-      "note": "Backyard at golden hour to the game after dark, then anywhere. Built story first: each cut is checked on whether a first-time viewer gets the game, the catch, the lights and wants one. Cards mark shots still to come.",
-      "kind": "cuts",
-      "items": [
-        {
-          "title": "Story cut v0.10",
-          "video": "launch-v0.10.mp4",
-          "poster": "launch-v0.10.jpg",
-          "meta": "0:57 · 1920x1080 · music",
-          "date": "2 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
-          "tldr": "Accuracy pass on v0.9. The knock now shows the disc hitting the bottle and both falling away, and the lit pole reads as an even LED glow, not a flame. No first-time viewer read it as fire.",
-          "changes": [
-            "Knock is the measured physics shot: disc strikes the bottle, both fall into the grass",
-            "Lit pole graded to a clean LED red; the flame-looking close-up is cut",
-            "Same cut and timing as v0.9 otherwise"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r21",
-          "video": "launch-v0.11r21.mp4",
-          "poster": "launch-v0.11r21.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "The knock render now runs on in slow motion so the falling pieces hang under the catch title, and the cut to the real prototype lands on the bar line. Best of the rounds, but short of the bar: the catch still reads weakly. Panel P 7.85 vs best 8.42; takeaways 9.75/7.08/8.75/10.00; stop 6.25; send 5.25.",
-          "changes": [
-            "Catch beat from the knock render at 0.4x under the catch title; the hard cut to the real prototype lands on the bar line"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r22",
-          "video": "launch-v0.11r22.mp4",
-          "poster": "launch-v0.11r22.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "A CG catch seen from the catcher's eyes replaced the held knock under the catch title. It lost because the stand-in hands read as pink sticks to 8 of 12 viewers. Panel P 7.21 vs best 8.42; takeaways 8.58/6.50/7.58/9.00; stop 6.17; send 5.42.",
-          "changes": [
-            "CG catch from the catcher's view: the knocked bottle tumbles into two hands under the catch title"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r23",
-          "video": "launch-v0.11r23.mp4",
-          "poster": "launch-v0.11r23.jpg",
-          "meta": "0:47 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "Three bars cut from the dark middle so the lights come on 4.7 s sooner. It lost because 11 of 12 still named the dark stretch and the game read fell. Panel P 7.26 vs best 7.49; takeaways 8.08/7.67/8.08/8.58; stop 6.00; send 5.17.",
-          "changes": [
-            "Dark middle trimmed by three bars; the lights come on 4.7 s sooner"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r24",
-          "video": "launch-v0.11r24.mp4",
-          "poster": "launch-v0.11r24.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "The knock fills the frame, cropped 1.7x on the pole top. The catch read rose, but stop and send fell and still nobody is seen throwing or catching. Panel P 7.51 vs best 7.56; takeaways 9.83/8.17/7.33/8.83; stop 5.92; send 5.00.",
-          "changes": [
-            "Knock and fall cropped 1.7x on the pole top"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r25",
-          "video": "launch-v0.11r25.mp4",
-          "poster": "launch-v0.11r25.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "A CG thrower gets his own two-beat shot from behind the first pole before the knock. It lost because only 1 of 12 noticed him; under a second on screen does not register. Panel P 7.54 vs best 7.71; takeaways 9.67/6.58/8.17/10.00; stop 5.92; send 4.92.",
-          "changes": [
-            "Two-beat CG thrower shot from behind the first pole before the knock"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r26",
-          "video": "launch-v0.11r26.mp4",
-          "poster": "launch-v0.11r26.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "The film opens cold on the real catch, with the CG knock after it. The catch read rose, but mixing renders with phone footage up front cost the lights read and the urge to share. Panel P 7.88 vs best 8.18; takeaways 9.92/8.42/8.83/9.83; stop 6.00; send 4.25.",
-          "changes": [
-            "Cold open on the real catch in place of the opening render"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r27",
-          "video": "launch-v0.11r27.mp4",
-          "poster": "launch-v0.11r27.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "No black card: the real catch starts on the bar line with the prototype words over it as a title. The card complaint went from 8 of 12 to none, but the ending read fell. Panel P 7.89 vs best 7.99; takeaways 10.00/7.83/9.17/9.42; stop 5.92; send 5.00.",
-          "changes": [
-            "Prototype card words ride as a title over the first real frame; the black card is gone"
-          ]
-        },
-        {
-          "title": "Draft v0.11 r28",
-          "video": "launch-v0.11r28.mp4",
-          "poster": "launch-v0.11r28.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "17 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "The CG thrower opens the film for 2.4 s, with the r27 title kept. Up 0.11, short of the 0.25 the loop needs, and only 1 of 12 noticed the thrower. Panel P 7.57 vs best 7.46; takeaways 10.00/8.08/7.58/8.92; stop 5.92; send 4.92.",
-          "changes": [
-            "CG thrower from behind the first pole opens the film, plus the r27 title"
-          ]
-        },
-        {
-          "title": "Draft v0.12 r1",
-          "video": "launch-v0.12r1.mp4",
-          "poster": "launch-v0.12r1.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "18-19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "One throw, replayed, as a whole film: a single slow-motion CG shot rides the disc from the release to the knock while the sun drops and the poles ignite on the drop. Rejected, panel P 6.42 vs best 7.74: the long crawl read static and no one saw the game played.",
-          "changes": [
-            "The whole film is the one-throw shot, with the real catch, knock and smile after it"
-          ]
-        },
-        {
-          "title": "Draft v0.12 r2",
-          "video": "launch-v0.12r2.mp4",
-          "poster": "launch-v0.12r2.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "18-19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "The one-throw flight becomes the dark middle of the best cut: dusk, ignition on the drop, the knock in the dark. Just under the keep rule, panel P 7.80 vs 7.60; the lights takeaway rose 0.83 and all 12 named the ignition, but the middle still felt long.",
-          "changes": [
-            "The one-throw shot replaces the dark middle, the ignition and the night strike"
-          ]
-        },
-        {
-          "title": "Draft v0.12 r3",
-          "video": "launch-v0.12r3.mp4",
-          "poster": "launch-v0.12r3.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "18-19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "Adds the card words as a title over the first real frames and a faster flight. Panel P 8.22 vs 8.14, under the keep rule; the catch takeaway reached 8.42, over the 8 bar for the first time, but the strike at 2-8 s read tiny.",
-          "changes": [
-            "Card words ride over the real footage; the flight runs 1.3x to the ignition"
-          ]
-        },
-        {
-          "title": "Draft v0.12 r4",
-          "video": "launch-v0.12r4.mp4",
-          "poster": "launch-v0.12r4.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "18-19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "The strike at 2-8 s fills the frame. KEPT, the best v0.12 cut: panel P 7.97 vs 7.54. The lights takeaway jumped 2.17; the dark 12-26 s stretch and the unclear catch rule are the top complaints.",
-          "changes": [
-            "1.7x window on the strike and fall at 2-8 s"
-          ]
-        },
-        {
-          "title": "Draft v0.12 r5",
-          "video": "launch-v0.12r5.mp4",
-          "poster": "launch-v0.12r5.jpg",
-          "meta": "0:46 · 1920x1080 · music",
-          "date": "18-19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "Cuts 6 s of the dusk flight. Rejected, panel P 7.85 vs 8.01: the middle still read dark and empty, and the catch takeaway fell. A trim does not fix the middle.",
-          "changes": [
-            "Dusk flight 12 s instead of 18 (45.8 s cut)"
-          ]
-        },
-        {
-          "title": "Draft v0.12 r6",
-          "video": "launch-v0.12r6.mp4",
-          "poster": "launch-v0.12r6.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "18-19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "Ends on the real player's smile before a shorter end card. Rejected, panel P 7.63 vs 7.94: stop and send rose a hair, but the shorter card cost the tagline and three takeaways fell.",
-          "changes": [
-            "The film ends on the real smile; end card shortened"
-          ]
-        },
-        {
-          "title": "Draft v0.12 r7",
-          "video": "launch-v0.12r7.mp4",
-          "poster": "launch-v0.12r7.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "18-19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
-          "tldr": "The lit knock runs straight into the score screen, no night wide. Rejected, panel P 7.99 vs 8.08, every takeaway a hair under; the catch still never shown and the dark 12-26 s still the top complaints.",
-          "changes": [
-            "Night wide removed; the lit knock runs into the score screen"
-          ]
-        },
-        {
-          "title": "Draft v0.12 Lit",
-          "video": "launch-v0.12lit.mp4",
-          "poster": "launch-v0.12lit.jpg",
-          "meta": "0:52 · 1920x1080 · music",
-          "date": "19 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
-          "tldr": "One throw, replayed: a single slow-motion shot rides beside the disc while the sun drops. The string lights come on in groups, one per beat, sweeping toward the pole, the whole string glows on the music stop, and the poles ignite on the drop at 27 s. Built on r4, the best-scoring v0.12 cut (panel P 7.97 vs 7.54); this version has not been panelled.",
-          "changes": [
-            "The strike at 2-8 s fills the frame",
-            "The string lights chase on the beat into the ignition, with their warm glow on the fence and lawn",
-            "The card words ride over the first real frames, no black card"
-          ]
-        },
-        {
-          "title": "Story cut v0.9",
-          "video": "launch-v0.9.mp4",
-          "poster": "launch-v0.9.jpg",
-          "meta": "0:57 · 1920x1080 · music",
-          "date": "2 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
-          "tldr": "One full round, start to finish, on the beat: the throw, the knock, the dive, the catch, the cheer. First-time viewers rate it 7 of 10 for stopping the scroll, up from 6, and most name the moment the poles light up on the drop.",
-          "changes": [
-            "A real round up front, every shot under two seconds",
-            "The rules in one look: KNOCK IT OFF: TWO POINTS. CATCH IT: ZERO.",
-            "A big finish: the last throw knocks the glowing bottle off and the crew erupts on the loudest bar"
-          ]
-        },
-        {
-          "title": "Story cut v0.8",
-          "video": "launch-v0.8.mp4",
-          "poster": "launch-v0.8.jpg",
-          "meta": "1:06 · 1920x1080 · music",
-          "date": "2 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
-          "tldr": "Real people and a real catch. Friends play in silhouette at sunset and under the lit poles, and the glowing bottle now drops into the hands. 11 of 12 first-time viewers named that night catch as the moment they remember.",
-          "changes": [
-            "One bottle everywhere, frosted by day and glowing from inside at night",
-            "A crew in silhouette: a diving catch opens the film, a sunset high-five, the crew cheering under the lit poles",
-            "The night is readable: a dark wide before the lights, then the lit set with the crew; both catches move"
-          ]
-        },
-        {
-          "title": "Story cut v0.7",
-          "video": "launch-v0.7.mp4",
-          "poster": "launch-v0.7.jpg",
-          "meta": "1:06 · 1920x1080 · music",
-          "date": "1 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand shots generated",
-          "tldr": "No text cards left: every shot is picture. Hand shots now show the throw, the golden-hour catch and the night catch with the glowing bottle. A close-up of the bottle on the pole after the opening wide helped first-time viewers most.",
-          "changes": [
-            "The three cards are now hand shots: the release, a catch in low sun, two hands closing round the lit bottle at night",
-            "Golden-hour close-up of the bottle on the pole top right after the opening wide",
-            "Starts two bars earlier in the song; knock-off to end card keeps its timing"
-          ]
-        },
-        {
-          "title": "Story cut v0.4",
-          "video": "launch-v0.4.mp4",
-          "poster": "launch-v0.4.jpg",
-          "meta": "1:03 · 1920x1080 · music",
-          "date": "1 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
-          "tldr": "First story-first cut. Golden-hour backyard opening with the real knock, lights on at the drop, beach turn and win. Release and catch shots are still cards.",
-          "changes": [
-            "New golden-hour backyard: wide, slow-motion knock, sunset",
-            "Knock physics measured against real slow-motion footage",
-            "Story checked by a cold viewer panel: 8.2 of 10"
-          ]
-        }
-      ]
+     "title": "Look A v0.1: big type",
+     "video": "rules-lookA-v0.1.mp4",
+     "poster": "rules-lookA-v0.1.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "23 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "First of three looks on one script. Big condensed words carry each rule and the product shows as glowing strokes. TWO tips over with the falling bottle. Picked as the base for the film.",
+     "changes": [
+      "Seven beats: ignite, setup, pole hit, bottle knock, catch, win, end card",
+      "Score chip runs through every scoring beat"
+     ]
     },
     {
-      "id": "beach",
-      "title": "Beach film · Last Light",
-      "label": "Draft cuts · tap play for sound",
-      "note": "Sunset to bonfire night on the beach. Every draft, newest first, with what changed since the one before it and the machine that rendered it.",
-      "kind": "cuts",
-      "items": [
-        {
-          "title": "Draft v0.5_1080",
-          "video": "beach-v0.5_1080.mp4",
-          "poster": "beach-v0.5_1080.jpg",
-          "meta": "1:20 · 1920x1080 master · music",
-          "date": "1 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
-          "tldr": "Re-render of the current look with no new kept changes.",
-          "changes": []
-        },
-        {
-          "title": "Draft v0.4",
-          "video": "beach-v0.4.mp4",
-          "poster": "beach-v0.4.jpg",
-          "meta": "1:20 · 1280x720 · music",
-          "date": "29 Sep 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 128 samples",
-          "tldr": "6 look changes kept by the look-dev loop (cycles C001 to C011).",
-          "changes": [
-            "The distant headland now has a broken, ridged skyline instead of a smooth dome.",
-            "The lit bottles glow with a hot near-white core and team colour at the edges, like a real camera sees them.",
-            "The sunlit tube in the golden-hour close-up reads round and glowing, not flat.",
-            "The driftwood seats round the fire are weathered logs with grain, cracks and broken ends.",
-            "The hoodie left on a seat drapes over the log like real cloth.",
-            "The sandals by the fire are real flip-flops, not blocks."
-          ]
-        },
-        {
-          "title": "Draft v0.3",
-          "video": "beach-v0.3.mp4",
-          "poster": "beach-v0.3.jpg",
-          "meta": "1:20 · 640x360 draft · music",
-          "date": "28 Sep 2026",
-          "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
-          "tldr": "First look pass. Director score up from 5.6 to 6.7.",
-          "changes": [
-            "Golden hour sits lower and warmer, with a real orange sun",
-            "Driftwood and beach debris added along the sand",
-            "Discs are bigger and read in flight",
-            "Campfire lights the friends shot instead of leaving it near black",
-            "The bottle's colour holds through the first throw",
-            "PICK YOUR LIGHT SHOW. now clears the rainbow pole"
-          ]
-        },
-        {
-          "title": "Draft v0.2",
-          "video": "beach-v0.2.mp4",
-          "poster": "beach-v0.2.jpg",
-          "meta": "1:20 · 640x360 draft · music",
-          "date": "28 Sep 2026",
-          "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
-          "tldr": "Four review fixes on the same timing as v0.1.",
-          "changes": [
-            "Bottle no longer picks up a tint from a stray light",
-            "End card uses the rainbow logo with a white wordmark",
-            "Camp shots lose their orange cast",
-            "PICK YOUR LIGHT SHOW. moved clear of the phone"
-          ]
-        },
-        {
-          "title": "Draft v0.1",
-          "video": "beach-v0.1.mp4",
-          "poster": "beach-v0.1.jpg",
-          "meta": "1:20 · 640x360 draft · music",
-          "date": "28 Sep 2026",
-          "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
-          "tldr": "First full cut: 24 shots from golden hour to the bonfire game, on the music grid.",
-          "changes": []
-        }
-      ]
+     "title": "Look B v0.1: field diagram",
+     "video": "rules-lookB-v0.1.mp4",
+     "poster": "rules-lookB-v0.1.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "23 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "Second look: a side-on court like a coach's whiteboard, with labelled parts, a dashed throw arc and close-up insets. Clear but calm. Its self-drawing arc carried into the film.",
+     "changes": [
+      "Same script as Look A",
+      "Arc draws itself before the disc flies it"
+     ]
     },
     {
-      "id": "social",
-      "title": "Social cuts",
-      "label": "Vertical cuts · tap play for sound",
-      "note": "The beach film cut down for phones, 9:16 at full phone resolution. Review builds: each carries its review line at the top.",
-      "kind": "cuts",
-      "items": [
-        {
-          "title": "Social 30 s",
-          "video": "social30-native.mp4",
-          "poster": "social30-native.jpg",
-          "meta": "0:30 · 1080x1920 vertical · music",
-          "date": "14 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
-          "tldr": "The beach film cut for Reels, Stories and Shorts: lit from the first frame, the throw, the app, the score at game point, the answer strike, the lockup. Every frame rendered again at phone size, no upscaled crop.",
-          "changes": [
-            "Opens on the lit bottle and the app pairing; the crane into the lane",
-            "Pick your light show over the app; first to twenty one, win by two over the score",
-            "Knock their bottle off on the answer strike, then the logo and the address"
-          ]
-        },
-        {
-          "title": "Social 15 s",
-          "video": "social15-native.mp4",
-          "poster": "social15-native.jpg",
-          "meta": "0:15 · 1080x1920 vertical · music",
-          "date": "14 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
-          "tldr": "The short one: the light, the throw, the goal, the address. No app screens.",
-          "changes": [
-            "Lit bottle from frame one, the throw and the red disc",
-            "The bottle in the sand under Knock their bottle off",
-            "Logo and address on the drop"
-          ]
-        },
-        {
-          "title": "Bumper 6 s",
-          "video": "bumper-native.mp4",
-          "poster": "bumper-native.jpg",
-          "meta": "0:06 · 1080x1920 vertical · music",
-          "date": "14 Oct 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
-          "tldr": "Six seconds for feeds that play silent: the tube fills, the rainbow, the lockup with the address. Reads with the sound off.",
-          "changes": [
-            "Tube fill, rainbow pole, logo lockup"
-          ]
-        }
-      ]
+     "title": "Look C v0.1: scoreboard",
+     "video": "rules-lookC-v0.1.mp4",
+     "poster": "rules-lookC-v0.1.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "23 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "Third look: the whole film is a live scoreboard with the poles in a strip above it. Its catch, a CATCH chip striking out the +2, carried into the film.",
+     "changes": [
+      "Same script as Look A",
+      "Catch shown as the score rolling back"
+     ]
     },
     {
-      "id": "hero",
-      "title": "Hero film · Light 'Em Up",
-      "label": "Tap play for sound",
-      "note": "",
-      "kind": "cuts",
-      "items": [
-        {
-          "title": "Final v2.4",
-          "video": "film-v2.4-final.mp4",
-          "poster": "film-v2.4-final.jpg",
-          "meta": "1:03 · 720p web copy of the 1080p final · music",
-          "date": "28 Sep 2026",
-          "rendered": "Mac mini M4 · Blender Cycles on Metal · 1080p, all 1516 frames",
-          "tldr": "Every frame is now the final render. No draft frames left.",
-          "changes": [
-            "Rule card reads FIRST TO TWENTY ONE. / WIN BY TWO.",
-            "Shots with out-of-focus lights render at higher quality to clean up the bokeh"
-          ]
-        },
-        {
-          "title": "Test cut v2.4",
-          "video": "../room/film.mp4",
-          "poster": "../room/poster.jpg",
-          "meta": "1:03 · 720p · music",
-          "date": "27 Sep 2026",
-          "rendered": "Mac mini M4 · final frames mixed with earlier draft frames",
-          "tldr": "About a third is the new final render. The rest is the earlier draft, marked DRAFT in the corner.",
-          "changes": []
-        },
-        {
-          "title": "Lab cut",
-          "video": "../v2lab-720p-r0.mp4",
-          "poster": "../poster-r0.jpg",
-          "meta": "1:03 · 720p · music",
-          "date": "26 Sep 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
-          "tldr": "Look test from the render PC: new tone and grain, plus the new bottle shape.",
-          "changes": []
-        },
-        {
-          "title": "Lab cut, phone copy",
-          "video": "lab-cut-phone.mp4",
-          "poster": "../poster-r0.jpg",
-          "meta": "1:03 · 720p · no sound · 7 MB",
-          "date": "26 Sep 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
-          "tldr": "The same cut in a smaller file.",
-          "changes": []
-        }
-      ]
+     "title": "Draft v0.2",
+     "video": "rules-v0.2.mp4",
+     "poster": "rules-v0.2.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "23 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "First story cut. Magenta goes up 3 to 0, underdog cyan catches a bottle, comes back to 19 all and wins 21 to 19 with its own knock. Blind critic 6.9 of 10: clear, but the catch hand read as a sock puppet.",
+     "changes": [
+      "Underdog story on Look A's type and poles",
+      "Poles act through light: magenta cocky, cyan nervous"
+     ]
     },
     {
-      "id": "throw",
-      "title": "One Throw",
-      "label": "",
-      "note": "",
-      "kind": "cuts",
-      "items": [
-        {
-          "title": "One Throw v0.5",
-          "video": "one-throw-v05.mp4",
-          "poster": "one-throw-v05.jpg",
-          "meta": "0:34 · 1080p · no sound",
-          "date": "25 Sep 2026",
-          "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
-          "tldr": "The short spot. The bottle glows the whole time, and each shot holds longer.",
-          "changes": []
-        }
-      ]
+     "title": "Draft v0.3",
+     "video": "rules-v0.3.mp4",
+     "poster": "rules-v0.3.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "23 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "Craft pass on the critic's notes. Bigger score, camera pushes in on the catch, the score no longer jumps before the catch. Blind critic 7.1.",
+     "changes": [
+      "Hand redrawn and moved to the middle of the frame",
+      "Squash on every impact; cyan's wince holds"
+     ]
     },
     {
-      "id": "stings",
-      "title": "Logo end screens",
-      "label": "4 s · no sound",
-      "note": "Rendered on the Mac mini M4.",
-      "kind": "stings",
-      "items": [
-        {
-          "title": "Wide 16:9",
-          "video": "../room/sting_wide.mp4",
-          "poster": "sting-wide.jpg",
-          "cls": "wide"
-        },
-        {
-          "title": "Square 1:1",
-          "video": "../room/sting_square.mp4",
-          "poster": "sting-square.jpg"
-        },
-        {
-          "title": "Vertical 9:16",
-          "video": "../room/sting_vertical.mp4",
-          "poster": "sting-vertical.jpg"
-        }
-      ]
+     "title": "Draft v0.4",
+     "video": "rules-v0.4.mp4",
+     "poster": "rules-v0.4.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "23 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "Hand swapped for a stock icon hand, magenta keeps its colour as it dims, glows no longer cut off. Blind critic 7.2. Hand icon: Phosphor Icons.",
+     "changes": [
+      "Icon hand in place of the drawn one",
+      "+2 and CATCH chips 1.6x larger"
+     ]
     },
     {
-      "id": "look",
-      "title": "Look tests",
-      "label": "",
-      "note": "Test sheets from the render PC (RTX 3060), in the order they were tried. Tap one to open it full size.",
-      "kind": "sheets",
-      "items": [
-        {
-          "title": "Loop 2 · Tone",
-          "img": "lab-02-tone.jpg",
-          "sub": "Three tone curves, side by side",
-          "alt": "Loop 2 test sheet: three tone curves compared",
-          "w": 1920,
-          "h": 1080
-        },
-        {
-          "title": "Loop 3 · Bokeh",
-          "img": "lab-03-bokeh.jpg",
-          "sub": "Background lights from 128 to 1024 samples",
-          "alt": "Loop 3 test sheet: background lights at four sample counts",
-          "w": 2160,
-          "h": 660
-        },
-        {
-          "title": "Loop 4b · Render quality",
-          "img": "lab-04b-samples.jpg",
-          "sub": "Which shots need the slower, cleaner setting",
-          "alt": "Loop 4b test sheet: shots at two quality settings",
-          "w": 960,
-          "h": 2700
-        },
-        {
-          "title": "Loop 5 · Titles",
-          "img": "lab-05-titles.jpg",
-          "sub": "How the titles read under the new tone",
-          "alt": "Loop 5 test sheet: titles under three tone settings",
-          "w": 1920,
-          "h": 1080
-        },
-        {
-          "title": "Loop 6 · Starting point",
-          "img": "lab-06-start.jpg",
-          "sub": "Key frames before loops 6 to 12",
-          "alt": "Loop 6 test sheet: key frames before the later look changes",
-          "w": 2304,
-          "h": 864
-        },
-        {
-          "title": "Loop 7 · Lights",
-          "img": "lab-07-lights.jpg",
-          "sub": "Light strength, without and with denoise",
-          "alt": "Loop 7 test sheet: light strength without and with denoise",
-          "w": 1280,
-          "h": 2160
-        },
-        {
-          "title": "Loop 9 · Finish",
-          "img": "lab-09-finish.jpg",
-          "sub": "Before, then two grain and vignette options",
-          "alt": "Loop 9 test sheet: finish options compared",
-          "w": 1920,
-          "h": 2160
-        },
-        {
-          "title": "Loop 12 · Bottle shape",
-          "img": "lab-12-bottle.jpg",
-          "sub": "The new bottle shape across the film",
-          "alt": "Loop 12 test sheet: the new bottle shape across the film",
-          "w": 2304,
-          "h": 432
-        },
-        {
-          "title": "Loop 12b · Bottle glow",
-          "img": "lab-12b-glow.jpg",
-          "sub": "The flatter glow keeps the bottle's shape in flight",
-          "alt": "Loop 12b test sheet: two bottle glow settings",
-          "w": 960,
-          "h": 1890
-        },
-        {
-          "title": "Loop 12c · Final lab look",
-          "img": "lab-12c-final.jpg",
-          "sub": "The look the lab cut uses",
-          "alt": "Loop 12c test sheet: the final lab look",
-          "w": 1440,
-          "h": 1080
-        },
-        {
-          "title": "Lab cut · Every shot",
-          "img": "lab-cut-every-shot.jpg",
-          "sub": "63 frames from the lab cut",
-          "alt": "Contact sheet of 63 frames from the lab cut",
-          "w": 2592,
-          "h": 1472
-        }
-      ]
+     "title": "Draft v0.5",
+     "video": "rules-v0.5.mp4",
+     "poster": "rules-v0.5.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "24 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "New hand, generated as a silhouette and traced to a clean vector. It reads as a hand holding a lit bottle even as a thumbnail. Nothing else changed.",
+     "changes": [
+      "Generated and traced hand",
+      "Bottle sits in the palm between fingers and thumb"
+     ]
+    },
+    {
+     "title": "Draft v0.6",
+     "video": "rules-v0.6.mp4",
+     "poster": "rules-v0.6.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "24 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "On brand: black background, site colours, upright heavy display type, glass score panel with a rainbow edge. The bottle is now the real stubby shape from the CAD drawing, lit in its team colour and dark when knocked.",
+     "changes": [
+      "Stubby bottle from the CAD profile",
+      "Rainbow chase on ignite, logo on the end card"
+     ]
+    },
+    {
+     "title": "Draft v0.7",
+     "video": "rules-v0.7.mp4",
+     "poster": "rules-v0.7.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "24 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "Clean-up pass. No text slides off frame, chips never overlap, the disc stops at the pole instead of passing through it, and nothing hangs in the air after a hit.",
+     "changes": [
+      "Score chip grows into the board, no second score",
+      "Gravity starts on the impact frame"
+     ]
+    },
+    {
+     "title": "Draft v0.8",
+     "video": "rules-v0.8.mp4",
+     "poster": "rules-v0.8.jpg",
+     "meta": "0:30 · 1920x1080 · silent",
+     "date": "24 Oct 2026",
+     "rendered": "M1 MacBook · HTML and GSAP motion, rendered frame by frame in headless Chrome · about 30 s per render",
+     "tldr": "Story fix. Magenta reaches match point at 19 to 13 and throws for the win. Cyan catches it, magenta freezes at 19, cyan climbs to 19 all and wins by two. The catch now causes the comeback. Not yet scored.",
+     "changes": [
+      "Late-game race teaches first to twenty-one as a threat",
+      "Catch saves match point; magenta never scores again"
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "id": "launch",
+   "title": "Launch film",
+   "label": "Story cuts · tap play for sound",
+   "note": "Backyard at golden hour to the game after dark, then anywhere. Built story first: each cut is checked on whether a first-time viewer gets the game, the catch, the lights and wants one. Cards mark shots still to come.",
+   "kind": "cuts",
+   "items": [
+    {
+     "title": "Story cut v0.10",
+     "video": "launch-v0.10.mp4",
+     "poster": "launch-v0.10.jpg",
+     "meta": "0:57 · 1920x1080 · music",
+     "date": "2 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
+     "tldr": "Accuracy pass on v0.9. The knock now shows the disc hitting the bottle and both falling away, and the lit pole reads as an even LED glow, not a flame. No first-time viewer read it as fire.",
+     "changes": [
+      "Knock is the measured physics shot: disc strikes the bottle, both fall into the grass",
+      "Lit pole graded to a clean LED red; the flame-looking close-up is cut",
+      "Same cut and timing as v0.9 otherwise"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r21",
+     "video": "launch-v0.11r21.mp4",
+     "poster": "launch-v0.11r21.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "The knock render now runs on in slow motion so the falling pieces hang under the catch title, and the cut to the real prototype lands on the bar line. Best of the rounds, but short of the bar: the catch still reads weakly. Panel P 7.85 vs best 8.42; takeaways 9.75/7.08/8.75/10.00; stop 6.25; send 5.25.",
+     "changes": [
+      "Catch beat from the knock render at 0.4x under the catch title; the hard cut to the real prototype lands on the bar line"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r22",
+     "video": "launch-v0.11r22.mp4",
+     "poster": "launch-v0.11r22.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "A CG catch seen from the catcher's eyes replaced the held knock under the catch title. It lost because the stand-in hands read as pink sticks to 8 of 12 viewers. Panel P 7.21 vs best 8.42; takeaways 8.58/6.50/7.58/9.00; stop 6.17; send 5.42.",
+     "changes": [
+      "CG catch from the catcher's view: the knocked bottle tumbles into two hands under the catch title"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r23",
+     "video": "launch-v0.11r23.mp4",
+     "poster": "launch-v0.11r23.jpg",
+     "meta": "0:47 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "Three bars cut from the dark middle so the lights come on 4.7 s sooner. It lost because 11 of 12 still named the dark stretch and the game read fell. Panel P 7.26 vs best 7.49; takeaways 8.08/7.67/8.08/8.58; stop 6.00; send 5.17.",
+     "changes": [
+      "Dark middle trimmed by three bars; the lights come on 4.7 s sooner"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r24",
+     "video": "launch-v0.11r24.mp4",
+     "poster": "launch-v0.11r24.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "The knock fills the frame, cropped 1.7x on the pole top. The catch read rose, but stop and send fell and still nobody is seen throwing or catching. Panel P 7.51 vs best 7.56; takeaways 9.83/8.17/7.33/8.83; stop 5.92; send 5.00.",
+     "changes": [
+      "Knock and fall cropped 1.7x on the pole top"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r25",
+     "video": "launch-v0.11r25.mp4",
+     "poster": "launch-v0.11r25.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "A CG thrower gets his own two-beat shot from behind the first pole before the knock. It lost because only 1 of 12 noticed him; under a second on screen does not register. Panel P 7.54 vs best 7.71; takeaways 9.67/6.58/8.17/10.00; stop 5.92; send 4.92.",
+     "changes": [
+      "Two-beat CG thrower shot from behind the first pole before the knock"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r26",
+     "video": "launch-v0.11r26.mp4",
+     "poster": "launch-v0.11r26.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "The film opens cold on the real catch, with the CG knock after it. The catch read rose, but mixing renders with phone footage up front cost the lights read and the urge to share. Panel P 7.88 vs best 8.18; takeaways 9.92/8.42/8.83/9.83; stop 6.00; send 4.25.",
+     "changes": [
+      "Cold open on the real catch in place of the opening render"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r27",
+     "video": "launch-v0.11r27.mp4",
+     "poster": "launch-v0.11r27.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "No black card: the real catch starts on the bar line with the prototype words over it as a title. The card complaint went from 8 of 12 to none, but the ending read fell. Panel P 7.89 vs best 7.99; takeaways 10.00/7.83/9.17/9.42; stop 5.92; send 5.00.",
+     "changes": [
+      "Prototype card words ride as a title over the first real frame; the black card is gone"
+     ]
+    },
+    {
+     "title": "Draft v0.11 r28",
+     "video": "launch-v0.11r28.mp4",
+     "poster": "launch-v0.11r28.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "17 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "The CG thrower opens the film for 2.4 s, with the r27 title kept. Up 0.11, short of the 0.25 the loop needs, and only 1 of 12 noticed the thrower. Panel P 7.57 vs best 7.46; takeaways 10.00/8.08/7.58/8.92; stop 5.92; send 4.92.",
+     "changes": [
+      "CG thrower from behind the first pole opens the film, plus the r27 title"
+     ]
+    },
+    {
+     "title": "Draft v0.12 r1",
+     "video": "launch-v0.12r1.mp4",
+     "poster": "launch-v0.12r1.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "18-19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "One throw, replayed, as a whole film: a single slow-motion CG shot rides the disc from the release to the knock while the sun drops and the poles ignite on the drop. Rejected, panel P 6.42 vs best 7.74: the long crawl read static and no one saw the game played.",
+     "changes": [
+      "The whole film is the one-throw shot, with the real catch, knock and smile after it"
+     ]
+    },
+    {
+     "title": "Draft v0.12 r2",
+     "video": "launch-v0.12r2.mp4",
+     "poster": "launch-v0.12r2.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "18-19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "The one-throw flight becomes the dark middle of the best cut: dusk, ignition on the drop, the knock in the dark. Just under the keep rule, panel P 7.80 vs 7.60; the lights takeaway rose 0.83 and all 12 named the ignition, but the middle still felt long.",
+     "changes": [
+      "The one-throw shot replaces the dark middle, the ignition and the night strike"
+     ]
+    },
+    {
+     "title": "Draft v0.12 r3",
+     "video": "launch-v0.12r3.mp4",
+     "poster": "launch-v0.12r3.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "18-19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "Adds the card words as a title over the first real frames and a faster flight. Panel P 8.22 vs 8.14, under the keep rule; the catch takeaway reached 8.42, over the 8 bar for the first time, but the strike at 2-8 s read tiny.",
+     "changes": [
+      "Card words ride over the real footage; the flight runs 1.3x to the ignition"
+     ]
+    },
+    {
+     "title": "Draft v0.12 r4",
+     "video": "launch-v0.12r4.mp4",
+     "poster": "launch-v0.12r4.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "18-19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "The strike at 2-8 s fills the frame. KEPT, the best v0.12 cut: panel P 7.97 vs 7.54. The lights takeaway jumped 2.17; the dark 12-26 s stretch and the unclear catch rule are the top complaints.",
+     "changes": [
+      "1.7x window on the strike and fall at 2-8 s"
+     ]
+    },
+    {
+     "title": "Draft v0.12 r5",
+     "video": "launch-v0.12r5.mp4",
+     "poster": "launch-v0.12r5.jpg",
+     "meta": "0:46 · 1920x1080 · music",
+     "date": "18-19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "Cuts 6 s of the dusk flight. Rejected, panel P 7.85 vs 8.01: the middle still read dark and empty, and the catch takeaway fell. A trim does not fix the middle.",
+     "changes": [
+      "Dusk flight 12 s instead of 18 (45.8 s cut)"
+     ]
+    },
+    {
+     "title": "Draft v0.12 r6",
+     "video": "launch-v0.12r6.mp4",
+     "poster": "launch-v0.12r6.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "18-19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "Ends on the real player's smile before a shorter end card. Rejected, panel P 7.63 vs 7.94: stop and send rose a hair, but the shorter card cost the tagline and three takeaways fell.",
+     "changes": [
+      "The film ends on the real smile; end card shortened"
+     ]
+    },
+    {
+     "title": "Draft v0.12 r7",
+     "video": "launch-v0.12r7.mp4",
+     "poster": "launch-v0.12r7.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "18-19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · panel 12 viewers",
+     "tldr": "The lit knock runs straight into the score screen, no night wide. Rejected, panel P 7.99 vs 8.08, every takeaway a hair under; the catch still never shown and the dark 12-26 s still the top complaints.",
+     "changes": [
+      "Night wide removed; the lit knock runs into the score screen"
+     ]
+    },
+    {
+     "title": "Draft v0.12 Lit",
+     "video": "launch-v0.12lit.mp4",
+     "poster": "launch-v0.12lit.jpg",
+     "meta": "0:52 · 1920x1080 · music",
+     "date": "19 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+     "tldr": "One throw, replayed: a single slow-motion shot rides beside the disc while the sun drops. The string lights come on in groups, one per beat, sweeping toward the pole, the whole string glows on the music stop, and the poles ignite on the drop at 27 s. Built on r4, the best-scoring v0.12 cut (panel P 7.97 vs 7.54); this version has not been panelled.",
+     "changes": [
+      "The strike at 2-8 s fills the frame",
+      "The string lights chase on the beat into the ignition, with their warm glow on the fence and lawn",
+      "The card words ride over the first real frames, no black card"
+     ]
+    },
+    {
+     "title": "Story cut v0.9",
+     "video": "launch-v0.9.mp4",
+     "poster": "launch-v0.9.jpg",
+     "meta": "0:57 · 1920x1080 · music",
+     "date": "2 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
+     "tldr": "One full round, start to finish, on the beat: the throw, the knock, the dive, the catch, the cheer. First-time viewers rate it 7 of 10 for stopping the scroll, up from 6, and most name the moment the poles light up on the drop.",
+     "changes": [
+      "A real round up front, every shot under two seconds",
+      "The rules in one look: KNOCK IT OFF: TWO POINTS. CATCH IT: ZERO.",
+      "A big finish: the last throw knocks the glowing bottle off and the crew erupts on the loudest bar"
+     ]
+    },
+    {
+     "title": "Story cut v0.8",
+     "video": "launch-v0.8.mp4",
+     "poster": "launch-v0.8.jpg",
+     "meta": "1:06 · 1920x1080 · music",
+     "date": "2 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand and crew shots generated",
+     "tldr": "Real people and a real catch. Friends play in silhouette at sunset and under the lit poles, and the glowing bottle now drops into the hands. 11 of 12 first-time viewers named that night catch as the moment they remember.",
+     "changes": [
+      "One bottle everywhere, frosted by day and glowing from inside at night",
+      "A crew in silhouette: a diving catch opens the film, a sunset high-five, the crew cheering under the lit poles",
+      "The night is readable: a dark wide before the lights, then the lit set with the crew; both catches move"
+     ]
+    },
+    {
+     "title": "Story cut v0.7",
+     "video": "launch-v0.7.mp4",
+     "poster": "launch-v0.7.jpg",
+     "meta": "1:06 · 1920x1080 · music",
+     "date": "1 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples, hand shots generated",
+     "tldr": "No text cards left: every shot is picture. Hand shots now show the throw, the golden-hour catch and the night catch with the glowing bottle. A close-up of the bottle on the pole after the opening wide helped first-time viewers most.",
+     "changes": [
+      "The three cards are now hand shots: the release, a catch in low sun, two hands closing round the lit bottle at night",
+      "Golden-hour close-up of the bottle on the pole top right after the opening wide",
+      "Starts two bars earlier in the song; knock-off to end card keeps its timing"
+     ]
+    },
+    {
+     "title": "Story cut v0.4",
+     "video": "launch-v0.4.mp4",
+     "poster": "launch-v0.4.jpg",
+     "meta": "1:03 · 1920x1080 · music",
+     "date": "1 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+     "tldr": "First story-first cut. Golden-hour backyard opening with the real knock, lights on at the drop, beach turn and win. Release and catch shots are still cards.",
+     "changes": [
+      "New golden-hour backyard: wide, slow-motion knock, sunset",
+      "Knock physics measured against real slow-motion footage",
+      "Story checked by a cold viewer panel: 8.2 of 10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beach",
+   "title": "Beach film · Last Light",
+   "label": "Draft cuts · tap play for sound",
+   "note": "Sunset to bonfire night on the beach. Every draft, newest first, with what changed since the one before it and the machine that rendered it.",
+   "kind": "cuts",
+   "items": [
+    {
+     "title": "Draft v0.5_1080",
+     "video": "beach-v0.5_1080.mp4",
+     "poster": "beach-v0.5_1080.jpg",
+     "meta": "1:20 · 1920x1080 master · music",
+     "date": "1 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+     "tldr": "Re-render of the current look with no new kept changes.",
+     "changes": []
+    },
+    {
+     "title": "Draft v0.4",
+     "video": "beach-v0.4.mp4",
+     "poster": "beach-v0.4.jpg",
+     "meta": "1:20 · 1280x720 · music",
+     "date": "29 Sep 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 128 samples",
+     "tldr": "6 look changes kept by the look-dev loop (cycles C001 to C011).",
+     "changes": [
+      "The distant headland now has a broken, ridged skyline instead of a smooth dome.",
+      "The lit bottles glow with a hot near-white core and team colour at the edges, like a real camera sees them.",
+      "The sunlit tube in the golden-hour close-up reads round and glowing, not flat.",
+      "The driftwood seats round the fire are weathered logs with grain, cracks and broken ends.",
+      "The hoodie left on a seat drapes over the log like real cloth.",
+      "The sandals by the fire are real flip-flops, not blocks."
+     ]
+    },
+    {
+     "title": "Draft v0.3",
+     "video": "beach-v0.3.mp4",
+     "poster": "beach-v0.3.jpg",
+     "meta": "1:20 · 640x360 draft · music",
+     "date": "28 Sep 2026",
+     "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
+     "tldr": "First look pass. Director score up from 5.6 to 6.7.",
+     "changes": [
+      "Golden hour sits lower and warmer, with a real orange sun",
+      "Driftwood and beach debris added along the sand",
+      "Discs are bigger and read in flight",
+      "Campfire lights the friends shot instead of leaving it near black",
+      "The bottle's colour holds through the first throw",
+      "PICK YOUR LIGHT SHOW. now clears the rainbow pole"
+     ]
+    },
+    {
+     "title": "Draft v0.2",
+     "video": "beach-v0.2.mp4",
+     "poster": "beach-v0.2.jpg",
+     "meta": "1:20 · 640x360 draft · music",
+     "date": "28 Sep 2026",
+     "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
+     "tldr": "Four review fixes on the same timing as v0.1.",
+     "changes": [
+      "Bottle no longer picks up a tint from a stray light",
+      "End card uses the rainbow logo with a white wordmark",
+      "Camp shots lose their orange cast",
+      "PICK YOUR LIGHT SHOW. moved clear of the phone"
+     ]
+    },
+    {
+     "title": "Draft v0.1",
+     "video": "beach-v0.1.mp4",
+     "poster": "beach-v0.1.jpg",
+     "meta": "1:20 · 640x360 draft · music",
+     "date": "28 Sep 2026",
+     "rendered": "Mac mini M4 · Blender Cycles on Metal · 32 samples",
+     "tldr": "First full cut: 24 shots from golden hour to the bonfire game, on the music grid.",
+     "changes": []
+    }
+   ]
+  },
+  {
+   "id": "social",
+   "title": "Social cuts",
+   "label": "Vertical cuts · tap play for sound",
+   "note": "The beach film cut down for phones, 9:16 at full phone resolution. Review builds: each carries its review line at the top.",
+   "kind": "cuts",
+   "items": [
+    {
+     "title": "Social 30 s",
+     "video": "social30-native.mp4",
+     "poster": "social30-native.jpg",
+     "meta": "0:30 · 1080x1920 vertical · music",
+     "date": "14 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+     "tldr": "The beach film cut for Reels, Stories and Shorts: lit from the first frame, the throw, the app, the score at game point, the answer strike, the lockup. Every frame rendered again at phone size, no upscaled crop.",
+     "changes": [
+      "Opens on the lit bottle and the app pairing; the crane into the lane",
+      "Pick your light show over the app; first to twenty one, win by two over the score",
+      "Knock their bottle off on the answer strike, then the logo and the address"
+     ]
+    },
+    {
+     "title": "Social 15 s",
+     "video": "social15-native.mp4",
+     "poster": "social15-native.jpg",
+     "meta": "0:15 · 1080x1920 vertical · music",
+     "date": "14 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+     "tldr": "The short one: the light, the throw, the goal, the address. No app screens.",
+     "changes": [
+      "Lit bottle from frame one, the throw and the red disc",
+      "The bottle in the sand under Knock their bottle off",
+      "Logo and address on the drop"
+     ]
+    },
+    {
+     "title": "Bumper 6 s",
+     "video": "bumper-native.mp4",
+     "poster": "bumper-native.jpg",
+     "meta": "0:06 · 1080x1920 vertical · music",
+     "date": "14 Oct 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX · 64 samples",
+     "tldr": "Six seconds for feeds that play silent: the tube fills, the rainbow, the lockup with the address. Reads with the sound off.",
+     "changes": [
+      "Tube fill, rainbow pole, logo lockup"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hero",
+   "title": "Hero film · Light 'Em Up",
+   "label": "Tap play for sound",
+   "note": "",
+   "kind": "cuts",
+   "items": [
+    {
+     "title": "Final v2.4",
+     "video": "film-v2.4-final.mp4",
+     "poster": "film-v2.4-final.jpg",
+     "meta": "1:03 · 720p web copy of the 1080p final · music",
+     "date": "28 Sep 2026",
+     "rendered": "Mac mini M4 · Blender Cycles on Metal · 1080p, all 1516 frames",
+     "tldr": "Every frame is now the final render. No draft frames left.",
+     "changes": [
+      "Rule card reads FIRST TO TWENTY ONE. / WIN BY TWO.",
+      "Shots with out-of-focus lights render at higher quality to clean up the bokeh"
+     ]
+    },
+    {
+     "title": "Test cut v2.4",
+     "video": "../room/film.mp4",
+     "poster": "../room/poster.jpg",
+     "meta": "1:03 · 720p · music",
+     "date": "27 Sep 2026",
+     "rendered": "Mac mini M4 · final frames mixed with earlier draft frames",
+     "tldr": "About a third is the new final render. The rest is the earlier draft, marked DRAFT in the corner.",
+     "changes": []
+    },
+    {
+     "title": "Lab cut",
+     "video": "../v2lab-720p-r0.mp4",
+     "poster": "../poster-r0.jpg",
+     "meta": "1:03 · 720p · music",
+     "date": "26 Sep 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
+     "tldr": "Look test from the render PC: new tone and grain, plus the new bottle shape.",
+     "changes": []
+    },
+    {
+     "title": "Lab cut, phone copy",
+     "video": "lab-cut-phone.mp4",
+     "poster": "../poster-r0.jpg",
+     "meta": "1:03 · 720p · no sound · 7 MB",
+     "date": "26 Sep 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
+     "tldr": "The same cut in a smaller file.",
+     "changes": []
+    }
+   ]
+  },
+  {
+   "id": "throw",
+   "title": "One Throw",
+   "label": "",
+   "note": "",
+   "kind": "cuts",
+   "items": [
+    {
+     "title": "One Throw v0.5",
+     "video": "one-throw-v05.mp4",
+     "poster": "one-throw-v05.jpg",
+     "meta": "0:34 · 1080p · no sound",
+     "date": "25 Sep 2026",
+     "rendered": "Render PC · RTX 3060 · Blender Cycles on OptiX",
+     "tldr": "The short spot. The bottle glows the whole time, and each shot holds longer.",
+     "changes": []
+    }
+   ]
+  },
+  {
+   "id": "stings",
+   "title": "Logo end screens",
+   "label": "4 s · no sound",
+   "note": "Rendered on the Mac mini M4.",
+   "kind": "stings",
+   "items": [
+    {
+     "title": "Wide 16:9",
+     "video": "../room/sting_wide.mp4",
+     "poster": "sting-wide.jpg",
+     "cls": "wide"
+    },
+    {
+     "title": "Square 1:1",
+     "video": "../room/sting_square.mp4",
+     "poster": "sting-square.jpg"
+    },
+    {
+     "title": "Vertical 9:16",
+     "video": "../room/sting_vertical.mp4",
+     "poster": "sting-vertical.jpg"
+    }
+   ]
+  },
+  {
+   "id": "look",
+   "title": "Look tests",
+   "label": "",
+   "note": "Test sheets from the render PC (RTX 3060), in the order they were tried. Tap one to open it full size.",
+   "kind": "sheets",
+   "items": [
+    {
+     "title": "Loop 2 · Tone",
+     "img": "lab-02-tone.jpg",
+     "sub": "Three tone curves, side by side",
+     "alt": "Loop 2 test sheet: three tone curves compared",
+     "w": 1920,
+     "h": 1080
+    },
+    {
+     "title": "Loop 3 · Bokeh",
+     "img": "lab-03-bokeh.jpg",
+     "sub": "Background lights from 128 to 1024 samples",
+     "alt": "Loop 3 test sheet: background lights at four sample counts",
+     "w": 2160,
+     "h": 660
+    },
+    {
+     "title": "Loop 4b · Render quality",
+     "img": "lab-04b-samples.jpg",
+     "sub": "Which shots need the slower, cleaner setting",
+     "alt": "Loop 4b test sheet: shots at two quality settings",
+     "w": 960,
+     "h": 2700
+    },
+    {
+     "title": "Loop 5 · Titles",
+     "img": "lab-05-titles.jpg",
+     "sub": "How the titles read under the new tone",
+     "alt": "Loop 5 test sheet: titles under three tone settings",
+     "w": 1920,
+     "h": 1080
+    },
+    {
+     "title": "Loop 6 · Starting point",
+     "img": "lab-06-start.jpg",
+     "sub": "Key frames before loops 6 to 12",
+     "alt": "Loop 6 test sheet: key frames before the later look changes",
+     "w": 2304,
+     "h": 864
+    },
+    {
+     "title": "Loop 7 · Lights",
+     "img": "lab-07-lights.jpg",
+     "sub": "Light strength, without and with denoise",
+     "alt": "Loop 7 test sheet: light strength without and with denoise",
+     "w": 1280,
+     "h": 2160
+    },
+    {
+     "title": "Loop 9 · Finish",
+     "img": "lab-09-finish.jpg",
+     "sub": "Before, then two grain and vignette options",
+     "alt": "Loop 9 test sheet: finish options compared",
+     "w": 1920,
+     "h": 2160
+    },
+    {
+     "title": "Loop 12 · Bottle shape",
+     "img": "lab-12-bottle.jpg",
+     "sub": "The new bottle shape across the film",
+     "alt": "Loop 12 test sheet: the new bottle shape across the film",
+     "w": 2304,
+     "h": 432
+    },
+    {
+     "title": "Loop 12b · Bottle glow",
+     "img": "lab-12b-glow.jpg",
+     "sub": "The flatter glow keeps the bottle's shape in flight",
+     "alt": "Loop 12b test sheet: two bottle glow settings",
+     "w": 960,
+     "h": 1890
+    },
+    {
+     "title": "Loop 12c · Final lab look",
+     "img": "lab-12c-final.jpg",
+     "sub": "The look the lab cut uses",
+     "alt": "Loop 12c test sheet: the final lab look",
+     "w": 1440,
+     "h": 1080
+    },
+    {
+     "title": "Lab cut · Every shot",
+     "img": "lab-cut-every-shot.jpg",
+     "sub": "63 frames from the lab cut",
+     "alt": "Contact sheet of 63 frames from the lab cut",
+     "w": 2592,
+     "h": 1472
+    }
+   ]
+  }
+ ]
 }
