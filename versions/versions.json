@@ -1,5 +1,5 @@
 {
- "asof": "24 Oct 2026",
+ "asof": "25 Oct 2026",
  "sections": [
   {
    "id": "rules",
@@ -409,6 +409,30 @@
       "New golden-hour backyard: wide, slow-motion knock, sunset",
       "Knock physics measured against real slow-motion footage",
       "Story checked by a cold viewer panel: 8.2 of 10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "unreal",
+   "kind": "cuts",
+   "title": "Unreal trial",
+   "label": "Draft · tap play for sound",
+   "note": "The same blue-hour lawn rebuilt in Unreal Engine on the render PC, to see if it beats the Blender look. Draft cuts, newest first.",
+   "items": [
+    {
+     "title": "Unreal trial draft v0.1",
+     "video": "unreal-trial-v0.1.mp4",
+     "poster": "unreal-trial-v0.1.jpg",
+     "meta": "0:16 · 1920x1080 · music",
+     "date": "25 Oct 2026",
+     "rendered": "PC (Unreal 5.8) · RTX 3060 · path tracer, 128 samples with motion blur · about 55 min for the clip",
+     "tldr": "First moving test of the blue-hour lawn scene built in Unreal instead of Blender: three slow camera moves with the tube colour wave now travelling, cut to the music.",
+     "changes": [
+      "The approach across the lawn to the near pole, eight seconds",
+      "Cut on the big downbeat to a low orbit past the tube as the wave climbs",
+      "The bottle and nest close up as the band stops, fading out on the ring",
+      "Fixed: the tube colour wave was frozen in every earlier Unreal render"
      ]
     }
    ]
